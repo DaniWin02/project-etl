@@ -1,0 +1,117 @@
+services:
+  # Servicio de MongoDB para tus datos ETL
+  mongodb:
+    image: mongo:5.0 # Usa la imagen oficial de MongoDB
+    container_name: etl_mongodb
+    ports:
+      - "27017:27017" # Puerto para acceder a MongoDB desde tu máquina local
+    volumes:
+      - mongo_data:/data/db # Volumen persistente para los datos de MongoDB
+    restart: unless-stopped # Se reinicia automáticamente si se detiene inesperadamente
+    networks:
+      - etl_network # Conecta MongoDB a la red de ETL
+
+  # Backend de base de datos para Airflow (PostgreSQL)
+  postgres:
+    image: postgres:13
+    container_name: airflow_postgres_db
+    environment:
+      - POSTGRES_USER=airflow
+      - POSTGRES_PASSWORD=airflow
+      - POSTGRES_DB=airflow
+    volumes:
+      - pg_data:/var/lib/postgresql/data # Volumen persistente para los datos de PostgreSQL
+    restart: unless-stopped
+    networks:
+      - etl_network # Conecta PostgreSQL a la red de ETL
+
+  # Servidor web de Airflow (UI)
+  airflow-webserver:
+    build:
+      context: . # Busca el Dockerfile en el directorio actual (PROJECT-ETL)
+      dockerfile: Dockerfile
+    container_name: airflow_webserver
+    ports:
+      - "8080:8080" # Puerto para acceder a la UI de Airflow desde tu máquina local
+    environment:
+      - AIRFLOW__CORE__DAGS_FOLDER=/opt/airflow/dags # Ruta de los DAGs dentro del contenedor
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False # No cargar los DAGs de ejemplo de Airflow
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor # Executor para desarrollo local
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql://airflow:airflow@postgres/airflow # Conexión a la DB de Airflow
+      - AIRFLOW__CORE__ENABLE_XCOM_PICKLING=True # <-- AÑADIDO: Habilita XCom Pickling
+    volumes:
+      - ./dags:/opt/airflow/dags # Sincroniza tu carpeta 'dags' local con el contenedor
+      - ./logs:/opt/airflow/logs # Sincroniza la carpeta 'logs' para ver logs en tu máquina
+      - ./plugins:/opt/airflow/plugins # Sincroniza la carpeta 'plugins'
+      - ./utils:/opt/airflow/utils # Sincroniza la carpeta 'utils' para tus módulos compartidos
+    depends_on:
+      - postgres # Asegura que PostgreSQL esté listo antes que Airflow
+      - mongodb # Asegura que MongoDB también esté disponible para los DAGs
+    command: webserver # Comando para iniciar el webserver de Airflow
+    healthcheck: # Chequeo de salud para el contenedor
+      test: ["CMD", "curl", "--fail", "--silent", "--show-error", "http://localhost:8080/health"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    restart: unless-stopped 
+    networks:
+      - etl_network # Conecta el webserver a la red de ETL
+
+  # Scheduler de Airflow (el que programa y ejecuta los DAGs)
+  airflow-scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: airflow_scheduler
+    ports: # No es necesario exponer puertos para el scheduler, pero si los tenías, los mantengo.
+      - "8793:8793" # Puerto por defecto para el scheduler healthcheck, si lo quieres exponer
+    environment:
+      - AIRFLOW__CORE__DAGS_FOLDER=/opt/airflow/dags
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql://airflow:airflow@postgres/airflow
+      - AIRFLOW__CORE__ENABLE_XCOM_PICKLING=True # <-- AÑADIDO: Habilita XCom Pickling
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+      - ./utils:/opt/airflow/utils # Sincroniza la carpeta 'utils' aquí también
+    depends_on:
+      - postgres
+      - airflow-webserver # Espera a que el webserver también esté listo (para la DB de Airflow)
+      - mongodb
+    command: scheduler # Comando para iniciar el scheduler de Airflow
+    healthcheck: # Chequeo de salud para el contenedor
+      test: ["CMD", "curl", "--fail", "--silent", "--show-error", "http://localhost:8793/health"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - etl_network # Conecta el scheduler a la red de ETL
+
+  # Servicio de Streamlit (lo configuraremos más adelante)
+  streamlit:
+    build:
+      context: ./streamlit_app # Busca el Dockerfile dentro de la carpeta 'streamlit_app'
+      dockerfile: Dockerfile
+    container_name: etl_streamlit_app
+    ports:
+      - "8501:8501" # Puerto para acceder al dashboard de Streamlit
+    volumes:
+      - ./streamlit_app:/app # Sincroniza la carpeta de tu app Streamlit
+      - ./utils:/app/utils # Sincroniza 'utils' para que Streamlit pueda usar tus módulos de conexión/transformación
+    depends_on:
+      - mongodb # Streamlit necesitará MongoDB para obtener los datos
+    command: streamlit run app.py --server.port 8501 --server.address 0.0.0.0 # Comando para iniciar la aplicación Streamlit
+    restart: unless-stopped
+    networks:
+      - etl_network # Conecta Streamlit a la red de ETL
+
+volumes:
+  mongo_data: # Volumen para persistir los datos de MongoDB
+  pg_data:    # Volumen para persistir los datos de PostgreSQL (de Airflow)
+
+networks:
+  etl_network: # Red personalizada para conectar todos los servicios de ETL
+    driver: bridge # Usa el driver por defecto 'bridge' para la red

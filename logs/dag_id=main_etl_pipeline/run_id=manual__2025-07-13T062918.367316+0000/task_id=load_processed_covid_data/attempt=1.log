@@ -1,0 +1,20 @@
+[2025-07-13T06:29:37.306+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: main_etl_pipeline.load_processed_covid_data manual__2025-07-13T06:29:18.367316+00:00 [queued]>
+[2025-07-13T06:29:37.341+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: main_etl_pipeline.load_processed_covid_data manual__2025-07-13T06:29:18.367316+00:00 [queued]>
+[2025-07-13T06:29:37.342+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-13T06:29:37.408+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load_processed_covid_data> on 2025-07-13 06:29:18.367316+00:00
+[2025-07-13T06:29:37.437+0000] {standard_task_runner.py:60} INFO - Started process 555 to run task
+[2025-07-13T06:29:37.461+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'main_etl_pipeline', 'load_processed_covid_data', 'manual__2025-07-13T06:29:18.367316+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/main_pipeline.py', '--cfg-path', '/tmp/tmpjkl9ot4v']
+[2025-07-13T06:29:37.477+0000] {standard_task_runner.py:88} INFO - Job 84: Subtask load_processed_covid_data
+[2025-07-13T06:29:37.782+0000] {task_command.py:423} INFO - Running <TaskInstance: main_etl_pipeline.load_processed_covid_data manual__2025-07-13T06:29:18.367316+00:00 [running]> on host 23913323947a
+[2025-07-13T06:29:38.255+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='main_etl_pipeline' AIRFLOW_CTX_TASK_ID='load_processed_covid_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-13T06:29:18.367316+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-13T06:29:18.367316+00:00'
+[2025-07-13T06:29:38.281+0000] {logging_mixin.py:188} INFO - DEBUG: Contenido de processed_data recibido para carga en 'processed_covid_data': {'date': '2023-03-09T00:00:00', 'last_update_utc': '2023-03-10T04:21:03', 'total_confirmed': 7483444, 'confirmed_daily_change': 8225, 'total_deaths': 333188, 'deaths_daily_change': 52, 'total_recovered': 0, 'recovered_daily_change': 0, 'total_active': 7150256, 'active_daily_change': 8173, 'fatality_rate': 0.0445, 'country_iso': 'MEX', 'is_high_deaths_day': False, 'active_to_confirmed_ratio': 0.9554766495212632, 'recovery_rate': 0.0, 'transformation_timestamp': '2025-07-13T06:29:32.761024'}
+[2025-07-13T06:29:38.282+0000] {logging_mixin.py:188} INFO - DEBUG: Tipo de processed_data: <class 'dict'>
+[2025-07-13T06:29:38.283+0000] {logging_mixin.py:188} INFO - Iniciando carga de datos procesados en MongoDB en la colección: processed_covid_data...
+[2025-07-13T06:29:39.137+0000] {logging_mixin.py:188} INFO - Limpiando la colección processed_covid_data antes de insertar nuevos datos...
+[2025-07-13T06:29:40.213+0000] {logging_mixin.py:188} INFO - Colección limpiada exitosamente.
+[2025-07-13T06:29:40.293+0000] {logging_mixin.py:188} INFO - Datos cargados exitosamente en MongoDB en covid_db.processed_covid_data.
+[2025-07-13T06:29:40.296+0000] {logging_mixin.py:188} INFO - Registros cargados (procesados): 1 en processed_covid_data
+[2025-07-13T06:29:40.371+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-13T06:29:40.423+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=main_etl_pipeline, task_id=load_processed_covid_data, execution_date=20250713T062918, start_date=20250713T062937, end_date=20250713T062940
+[2025-07-13T06:29:40.619+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-13T06:29:40.707+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,75 @@
+[2025-07-15T13:34:03.837+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:34:03.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldbank.py for tasks to queue
+[2025-07-15T13:34:03.865+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:34:03.864+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:34:05.195+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:34:05.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldbank.py took 1.538 seconds
+[2025-07-15T13:34:36.474+0000] {processor.py:161} INFO - Started process (PID=268) to work on /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:34:36.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldbank.py for tasks to queue
+[2025-07-15T13:34:36.551+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:34:36.548+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:34:37.500+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:34:37.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldbank.py took 1.228 seconds
+[2025-07-15T13:35:08.442+0000] {processor.py:161} INFO - Started process (PID=330) to work on /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:35:08.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldbank.py for tasks to queue
+[2025-07-15T13:35:08.448+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:35:08.448+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:35:08.703+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:35:08.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldbank.py took 0.325 seconds
+[2025-07-15T13:35:39.509+0000] {processor.py:161} INFO - Started process (PID=391) to work on /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:35:39.514+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldbank.py for tasks to queue
+[2025-07-15T13:35:39.528+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:35:39.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:35:39.790+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:35:39.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldbank.py took 0.352 seconds
+[2025-07-15T13:36:10.063+0000] {processor.py:161} INFO - Started process (PID=455) to work on /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:36:10.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldbank.py for tasks to queue
+[2025-07-15T13:36:10.068+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:36:10.068+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:36:10.211+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:36:10.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldbank.py took 0.195 seconds
+[2025-07-15T13:36:40.562+0000] {processor.py:161} INFO - Started process (PID=519) to work on /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:36:40.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldbank.py for tasks to queue
+[2025-07-15T13:36:40.567+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:36:40.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:36:40.720+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:36:40.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldbank.py took 0.193 seconds
+[2025-07-15T13:37:11.167+0000] {processor.py:161} INFO - Started process (PID=578) to work on /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:37:11.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldbank.py for tasks to queue
+[2025-07-15T13:37:11.178+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:37:11.176+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:37:11.460+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:37:11.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldbank.py took 0.370 seconds
+[2025-07-15T13:37:42.209+0000] {processor.py:161} INFO - Started process (PID=675) to work on /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:37:42.214+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldbank.py for tasks to queue
+[2025-07-15T13:37:42.219+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:37:42.217+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:37:43.110+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:37:43.283+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldbank.py took 1.095 seconds
+[2025-07-15T13:38:13.614+0000] {processor.py:161} INFO - Started process (PID=769) to work on /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:38:13.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldbank.py for tasks to queue
+[2025-07-15T13:38:13.625+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:38:13.623+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:38:14.024+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:38:14.090+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldbank.py took 0.490 seconds
+[2025-07-15T13:38:44.766+0000] {processor.py:161} INFO - Started process (PID=829) to work on /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:38:44.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldbank.py for tasks to queue
+[2025-07-15T13:38:44.772+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:38:44.771+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:38:44.932+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:38:44.968+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldbank.py took 0.211 seconds
+[2025-07-15T13:39:15.331+0000] {processor.py:161} INFO - Started process (PID=893) to work on /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:39:15.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldbank.py for tasks to queue
+[2025-07-15T13:39:15.340+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:39:15.339+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:39:15.596+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:39:15.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldbank.py took 0.335 seconds
+[2025-07-15T13:39:46.127+0000] {processor.py:161} INFO - Started process (PID=958) to work on /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:39:46.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldbank.py for tasks to queue
+[2025-07-15T13:39:46.133+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:39:46.132+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:39:46.305+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:39:46.350+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldbank.py took 0.232 seconds
+[2025-07-15T13:40:21.791+0000] {processor.py:161} INFO - Started process (PID=1026) to work on /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:40:21.868+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldbank.py for tasks to queue
+[2025-07-15T13:40:21.872+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:40:21.871+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:40:23.363+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:40:23.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldbank.py took 1.702 seconds
+[2025-07-15T13:40:57.132+0000] {processor.py:161} INFO - Started process (PID=1087) to work on /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:40:57.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldbank.py for tasks to queue
+[2025-07-15T13:40:57.235+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:40:57.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:40:58.370+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:40:58.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldbank.py took 1.360 seconds
+[2025-07-15T13:41:33.717+0000] {processor.py:161} INFO - Started process (PID=1142) to work on /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:41:33.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldbank.py for tasks to queue
+[2025-07-15T13:41:33.781+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:41:33.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:41:35.821+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldbank.py
+[2025-07-15T13:41:36.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldbank.py took 2.452 seconds

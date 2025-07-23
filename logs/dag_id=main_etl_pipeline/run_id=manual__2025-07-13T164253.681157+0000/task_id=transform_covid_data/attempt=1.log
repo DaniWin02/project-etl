@@ -1,0 +1,18 @@
+[2025-07-13T16:43:34.913+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: main_etl_pipeline.transform_covid_data manual__2025-07-13T16:42:53.681157+00:00 [queued]>
+[2025-07-13T16:43:35.114+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: main_etl_pipeline.transform_covid_data manual__2025-07-13T16:42:53.681157+00:00 [queued]>
+[2025-07-13T16:43:35.149+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-13T16:43:35.678+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): transform_covid_data> on 2025-07-13 16:42:53.681157+00:00
+[2025-07-13T16:43:35.831+0000] {standard_task_runner.py:60} INFO - Started process 596 to run task
+[2025-07-13T16:43:35.981+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'main_etl_pipeline', 'transform_covid_data', 'manual__2025-07-13T16:42:53.681157+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/main_pipeline.py', '--cfg-path', '/tmp/tmppq9vvq2x']
+[2025-07-13T16:43:36.037+0000] {standard_task_runner.py:88} INFO - Job 92: Subtask transform_covid_data
+[2025-07-13T16:43:37.709+0000] {task_command.py:423} INFO - Running <TaskInstance: main_etl_pipeline.transform_covid_data manual__2025-07-13T16:42:53.681157+00:00 [running]> on host b687abb17bb2
+[2025-07-13T16:43:39.392+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='main_etl_pipeline' AIRFLOW_CTX_TASK_ID='transform_covid_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-13T16:42:53.681157+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-13T16:42:53.681157+00:00'
+[2025-07-13T16:43:39.492+0000] {logging_mixin.py:188} INFO - DEBUG: Contenido de raw_data recibido en transform_covid_data: {'date': '2023-03-09', 'last_update': '2023-03-10 04:21:03', 'confirmed': 7483444, 'confirmed_diff': 8225, 'deaths': 333188, 'deaths_diff': 52, 'recovered': 0, 'recovered_diff': 0, 'active': 7150256, 'active_diff': 8173, 'fatality_rate': 0.0445}
+[2025-07-13T16:43:39.499+0000] {logging_mixin.py:188} INFO - DEBUG: Tipo de raw_data: <class 'dict'>
+[2025-07-13T16:43:39.501+0000] {logging_mixin.py:188} INFO - Iniciando transformación de datos de COVID-19...
+[2025-07-13T16:43:39.593+0000] {logging_mixin.py:188} INFO - Datos de COVID-19 transformados exitosamente.
+[2025-07-13T16:43:39.685+0000] {logging_mixin.py:188} INFO - Registros transformados de COVID-19: 1
+[2025-07-13T16:43:39.696+0000] {python.py:201} INFO - Done. Returned value was: {'date': '2023-03-09T00:00:00', 'last_update_utc': '2023-03-10T04:21:03', 'total_confirmed': 7483444, 'confirmed_daily_change': 8225, 'total_deaths': 333188, 'deaths_daily_change': 52, 'total_recovered': 0, 'recovered_daily_change': 0, 'total_active': 7150256, 'active_daily_change': 8173, 'fatality_rate': 0.0445, 'country_iso': 'MEX', 'is_high_deaths_day': False, 'active_to_confirmed_ratio': 0.9554766495212632, 'recovery_rate': 0.0, 'transformation_timestamp': '2025-07-13T16:43:39.593250'}
+[2025-07-13T16:43:39.851+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=main_etl_pipeline, task_id=transform_covid_data, execution_date=20250713T164253, start_date=20250713T164334, end_date=20250713T164339
+[2025-07-13T16:43:40.076+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-13T16:43:40.333+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,70 @@
+[2025-07-15T13:34:15.798+0000] {processor.py:161} INFO - Started process (PID=241) to work on /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:34:15.801+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_covid.py for tasks to queue
+[2025-07-15T13:34:15.806+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:34:15.805+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:34:19.498+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:34:19.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_covid.py took 3.859 seconds
+[2025-07-15T13:34:50.047+0000] {processor.py:161} INFO - Started process (PID=307) to work on /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:34:50.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_covid.py for tasks to queue
+[2025-07-15T13:34:50.054+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:34:50.052+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:34:51.643+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:34:51.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_covid.py took 1.641 seconds
+[2025-07-15T13:35:22.839+0000] {processor.py:161} INFO - Started process (PID=375) to work on /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:35:22.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_covid.py for tasks to queue
+[2025-07-15T13:35:22.851+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:35:22.850+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:35:24.924+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:35:24.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_covid.py took 2.130 seconds
+[2025-07-15T13:35:55.283+0000] {processor.py:161} INFO - Started process (PID=437) to work on /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:35:55.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_covid.py for tasks to queue
+[2025-07-15T13:35:55.290+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:35:55.289+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:35:56.086+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:35:56.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_covid.py took 0.847 seconds
+[2025-07-15T13:36:26.510+0000] {processor.py:161} INFO - Started process (PID=501) to work on /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:36:26.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_covid.py for tasks to queue
+[2025-07-15T13:36:26.516+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:36:26.515+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:36:27.316+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:36:27.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_covid.py took 0.845 seconds
+[2025-07-15T13:36:57.573+0000] {processor.py:161} INFO - Started process (PID=563) to work on /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:36:57.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_covid.py for tasks to queue
+[2025-07-15T13:36:57.580+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:36:57.579+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:36:58.606+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:36:58.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_covid.py took 1.085 seconds
+[2025-07-15T13:37:33.745+0000] {processor.py:161} INFO - Started process (PID=631) to work on /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:37:33.761+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_covid.py for tasks to queue
+[2025-07-15T13:37:33.765+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:37:33.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:37:36.747+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:37:36.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_covid.py took 3.127 seconds
+[2025-07-15T13:38:07.084+0000] {processor.py:161} INFO - Started process (PID=758) to work on /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:38:07.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_covid.py for tasks to queue
+[2025-07-15T13:38:07.092+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:38:07.091+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:38:08.090+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:38:08.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_covid.py took 1.053 seconds
+[2025-07-15T13:38:38.605+0000] {processor.py:161} INFO - Started process (PID=818) to work on /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:38:38.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_covid.py for tasks to queue
+[2025-07-15T13:38:38.612+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:38:38.611+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:38:40.431+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:38:40.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_covid.py took 1.926 seconds
+[2025-07-15T13:39:10.936+0000] {processor.py:161} INFO - Started process (PID=882) to work on /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:39:10.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_covid.py for tasks to queue
+[2025-07-15T13:39:10.943+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:39:10.942+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:39:12.204+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:39:12.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_covid.py took 1.330 seconds
+[2025-07-15T13:39:42.679+0000] {processor.py:161} INFO - Started process (PID=946) to work on /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:39:42.682+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_covid.py for tasks to queue
+[2025-07-15T13:39:42.686+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:39:42.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:39:43.850+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:39:43.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_covid.py took 1.227 seconds
+[2025-07-15T13:40:14.635+0000] {processor.py:161} INFO - Started process (PID=1008) to work on /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:40:14.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_covid.py for tasks to queue
+[2025-07-15T13:40:14.663+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:40:14.653+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:40:19.744+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:40:19.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_covid.py took 5.242 seconds
+[2025-07-15T13:40:51.647+0000] {processor.py:161} INFO - Started process (PID=1066) to work on /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:40:51.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_covid.py for tasks to queue
+[2025-07-15T13:40:51.697+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:40:51.695+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:40:56.309+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:40:56.428+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_covid.py took 4.824 seconds
+[2025-07-15T13:41:30.038+0000] {processor.py:161} INFO - Started process (PID=1139) to work on /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:41:30.048+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_covid.py for tasks to queue
+[2025-07-15T13:41:30.066+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:41:30.064+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:41:39.505+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_covid.py
+[2025-07-15T13:41:39.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_covid.py took 9.585 seconds

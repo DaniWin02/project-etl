@@ -1,0 +1,781 @@
+[2025-07-23T10:48:39.962+0000] {processor.py:161} INFO - Started process (PID=9895) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:48:39.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:48:39.963+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:48:39.963+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:48:40.032+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:48:40.139+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:48:40.138+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:universities_dag
+[2025-07-23T10:48:40.145+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:48:40.145+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:universities_dag
+[2025-07-23T10:48:40.149+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:48:40.149+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:universities_dag
+[2025-07-23T10:48:40.150+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:48:40.149+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:48:40.157+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:48:40.157+0000] {dag.py:3058} INFO - Creating ORM DAG for universities_dag
+[2025-07-23T10:48:40.165+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:48:40.165+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:48:40.177+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.219 seconds
+[2025-07-23T10:49:10.438+0000] {processor.py:161} INFO - Started process (PID=9938) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:49:10.439+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:49:10.440+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:49:10.439+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:49:10.498+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:49:10.521+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:49:10.521+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:49:10.538+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:49:10.538+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:49:10.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.115 seconds
+[2025-07-23T10:49:40.794+0000] {processor.py:161} INFO - Started process (PID=9981) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:49:40.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:49:40.795+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:49:40.795+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:49:40.854+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:49:40.876+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:49:40.876+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:49:40.894+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:49:40.893+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:49:40.907+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.116 seconds
+[2025-07-23T10:50:11.147+0000] {processor.py:161} INFO - Started process (PID=10019) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:50:11.148+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:50:11.149+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:50:11.148+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:50:11.207+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:50:11.229+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:50:11.229+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:50:11.245+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:50:11.245+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:50:11.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.113 seconds
+[2025-07-23T10:50:41.531+0000] {processor.py:161} INFO - Started process (PID=10058) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:50:41.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:50:41.532+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:50:41.532+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:50:41.590+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:50:41.613+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:50:41.613+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:50:41.629+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:50:41.629+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:50:41.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.115 seconds
+[2025-07-23T10:51:11.874+0000] {processor.py:161} INFO - Started process (PID=10096) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:51:11.874+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:51:11.875+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:51:11.875+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:51:11.933+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:51:11.955+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:51:11.955+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:51:11.971+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:51:11.971+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:51:11.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.112 seconds
+[2025-07-23T10:51:42.274+0000] {processor.py:161} INFO - Started process (PID=10134) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:51:42.274+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:51:42.275+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:51:42.275+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:51:42.337+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:51:42.360+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:51:42.359+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:51:42.376+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:51:42.376+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:51:42.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.118 seconds
+[2025-07-23T10:52:12.637+0000] {processor.py:161} INFO - Started process (PID=10172) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:52:12.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:52:12.638+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:52:12.638+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:52:12.696+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:52:12.717+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:52:12.717+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:52:12.735+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:52:12.734+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:52:12.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.114 seconds
+[2025-07-23T10:52:42.985+0000] {processor.py:161} INFO - Started process (PID=10210) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:52:42.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:52:42.987+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:52:42.986+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:52:43.051+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:52:43.075+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:52:43.074+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:52:43.094+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:52:43.094+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:52:43.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.126 seconds
+[2025-07-23T10:53:13.363+0000] {processor.py:161} INFO - Started process (PID=10248) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:53:13.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:53:13.364+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:53:13.364+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:53:13.423+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:53:13.446+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:53:13.446+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:53:13.463+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:53:13.462+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:53:13.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.116 seconds
+[2025-07-23T10:53:43.881+0000] {processor.py:161} INFO - Started process (PID=10291) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:53:43.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:53:43.882+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:53:43.882+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:53:43.941+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:53:43.963+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:53:43.963+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:53:43.979+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:53:43.979+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:53:43.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.113 seconds
+[2025-07-23T10:54:14.307+0000] {processor.py:161} INFO - Started process (PID=10334) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:54:14.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:54:14.308+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:54:14.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:54:14.377+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:54:14.401+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:54:14.401+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:54:14.420+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:54:14.420+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:54:14.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.130 seconds
+[2025-07-23T10:54:44.761+0000] {processor.py:161} INFO - Started process (PID=10372) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:54:44.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:54:44.763+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:54:44.762+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:54:44.819+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:54:44.841+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:54:44.841+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:54:44.858+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:54:44.858+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:54:44.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.112 seconds
+[2025-07-23T10:55:14.163+0000] {processor.py:161} INFO - Started process (PID=10410) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:55:14.164+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:55:14.165+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:55:14.164+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:55:14.242+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:55:14.271+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:55:14.270+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:55:14.295+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:55:14.295+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:55:14.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.153 seconds
+[2025-07-23T10:55:44.621+0000] {processor.py:161} INFO - Started process (PID=10448) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:55:44.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:55:44.622+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:55:44.622+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:55:44.677+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:55:44.699+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:55:44.699+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:55:44.716+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:55:44.716+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:55:44.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.110 seconds
+[2025-07-23T10:56:15.038+0000] {processor.py:161} INFO - Started process (PID=10486) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:56:15.039+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:56:15.040+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:56:15.040+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:56:15.104+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:56:15.126+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:56:15.126+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:56:15.142+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:56:15.142+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:56:15.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.119 seconds
+[2025-07-23T10:56:45.497+0000] {processor.py:161} INFO - Started process (PID=10524) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:56:45.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:56:45.499+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:56:45.498+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:56:45.555+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:56:45.576+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:56:45.576+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:56:45.593+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:56:45.593+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:56:45.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.111 seconds
+[2025-07-23T10:57:15.902+0000] {processor.py:161} INFO - Started process (PID=10562) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:57:15.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:57:15.904+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:57:15.904+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:57:15.960+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:57:15.982+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:57:15.981+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:57:15.999+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:57:15.998+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:57:16.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.111 seconds
+[2025-07-23T10:57:30.123+0000] {processor.py:161} INFO - Started process (PID=10578) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:57:30.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:57:30.125+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:57:30.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:57:30.197+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:57:30.226+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:57:30.226+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:57:30.244+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:57:30.244+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:57:30.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.140 seconds
+[2025-07-23T10:57:39.368+0000] {processor.py:161} INFO - Started process (PID=10599) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:57:39.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:57:39.370+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:57:39.369+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:57:39.431+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:57:39.452+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:57:39.452+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:57:39.469+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:57:39.469+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:57:39.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.118 seconds
+[2025-07-23T10:58:09.776+0000] {processor.py:161} INFO - Started process (PID=10662) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:58:09.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:58:09.777+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:58:09.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:58:09.833+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:58:09.855+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:58:09.855+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:58:09.872+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:58:09.872+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:58:09.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.111 seconds
+[2025-07-23T10:58:40.195+0000] {processor.py:161} INFO - Started process (PID=10700) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:58:40.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:58:40.196+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:58:40.196+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:58:40.252+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:58:40.272+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:58:40.271+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:58:40.288+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:58:40.288+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:58:40.300+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.108 seconds
+[2025-07-23T10:59:10.663+0000] {processor.py:161} INFO - Started process (PID=10738) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:59:10.664+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:59:10.665+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:59:10.664+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:59:10.719+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:59:10.740+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:59:10.740+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:59:10.756+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:59:10.756+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:59:10.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.108 seconds
+[2025-07-23T10:59:41.076+0000] {processor.py:161} INFO - Started process (PID=10776) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:59:41.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T10:59:41.078+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:59:41.077+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:59:41.151+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T10:59:41.179+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:59:41.179+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T10:59:41.202+0000] {logging_mixin.py:188} INFO - [2025-07-23T10:59:41.202+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T10:59:41.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.148 seconds
+[2025-07-23T11:00:11.515+0000] {processor.py:161} INFO - Started process (PID=10819) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:00:11.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:00:11.516+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:00:11.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:00:11.568+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:00:11.587+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:00:11.587+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:00:11.603+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:00:11.603+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:00:11.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.103 seconds
+[2025-07-23T11:00:41.955+0000] {processor.py:161} INFO - Started process (PID=10857) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:00:41.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:00:41.956+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:00:41.956+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:00:42.009+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:00:42.030+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:00:42.030+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:00:42.047+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:00:42.046+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:00:42.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.107 seconds
+[2025-07-23T11:01:12.375+0000] {processor.py:161} INFO - Started process (PID=10895) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:01:12.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:01:12.376+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:01:12.376+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:01:12.434+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:01:12.455+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:01:12.455+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:01:12.471+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:01:12.471+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:01:12.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.111 seconds
+[2025-07-23T11:01:42.803+0000] {processor.py:161} INFO - Started process (PID=10933) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:01:42.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:01:42.805+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:01:42.804+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:01:42.858+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:01:42.878+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:01:42.878+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:01:42.894+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:01:42.894+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:01:42.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.106 seconds
+[2025-07-23T11:02:13.188+0000] {processor.py:161} INFO - Started process (PID=10973) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:02:13.189+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:02:13.190+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:02:13.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:02:13.242+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:02:13.263+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:02:13.263+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:02:13.281+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:02:13.281+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:02:13.293+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.108 seconds
+[2025-07-23T11:02:43.602+0000] {processor.py:161} INFO - Started process (PID=11011) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:02:43.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:02:43.603+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:02:43.603+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:02:43.659+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:02:43.680+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:02:43.680+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:02:43.710+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:02:43.710+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:02:43.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.130 seconds
+[2025-07-23T11:03:14.034+0000] {processor.py:161} INFO - Started process (PID=11049) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:03:14.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:03:14.035+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:03:14.035+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:03:14.088+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:03:14.108+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:03:14.108+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:03:14.124+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:03:14.124+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:03:14.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.105 seconds
+[2025-07-23T11:03:44.504+0000] {processor.py:161} INFO - Started process (PID=11087) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:03:44.504+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:03:44.505+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:03:44.505+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:03:44.572+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:03:44.601+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:03:44.600+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:03:44.631+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:03:44.631+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:03:44.650+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.150 seconds
+[2025-07-23T11:04:14.979+0000] {processor.py:161} INFO - Started process (PID=11125) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:04:14.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:04:14.981+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:04:14.980+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:04:15.041+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:04:15.063+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:04:15.062+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:04:15.079+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:04:15.079+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:04:15.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.116 seconds
+[2025-07-23T11:04:45.421+0000] {processor.py:161} INFO - Started process (PID=11163) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:04:45.422+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:04:45.422+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:04:45.422+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:04:45.481+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:04:45.502+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:04:45.502+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:04:45.519+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:04:45.518+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:04:45.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.113 seconds
+[2025-07-23T11:05:15.831+0000] {processor.py:161} INFO - Started process (PID=11201) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:05:15.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:05:15.833+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:05:15.832+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:05:15.892+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:05:15.914+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:05:15.914+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:05:15.931+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:05:15.931+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:05:15.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.116 seconds
+[2025-07-23T11:05:46.238+0000] {processor.py:161} INFO - Started process (PID=11240) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:05:46.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:05:46.239+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:05:46.239+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:05:46.295+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:05:46.319+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:05:46.319+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:05:46.337+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:05:46.337+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:05:46.350+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.115 seconds
+[2025-07-23T11:06:16.639+0000] {processor.py:161} INFO - Started process (PID=11278) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:06:16.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:06:16.640+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:06:16.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:06:16.698+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:06:16.719+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:06:16.719+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:06:16.736+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:06:16.736+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:06:16.749+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.112 seconds
+[2025-07-23T11:06:47.060+0000] {processor.py:161} INFO - Started process (PID=11316) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:06:47.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:06:47.061+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:06:47.061+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:06:47.118+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:06:47.138+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:06:47.138+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:06:47.155+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:06:47.155+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:06:47.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.110 seconds
+[2025-07-23T11:07:17.470+0000] {processor.py:161} INFO - Started process (PID=11354) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:07:17.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:07:17.472+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:07:17.471+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:07:17.535+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:07:17.557+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:07:17.556+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:07:17.574+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:07:17.574+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:07:17.588+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.121 seconds
+[2025-07-23T11:07:47.902+0000] {processor.py:161} INFO - Started process (PID=11392) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:07:47.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:07:47.904+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:07:47.904+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:07:47.959+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:07:47.980+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:07:47.980+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:07:47.998+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:07:47.998+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:07:48.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.112 seconds
+[2025-07-23T11:08:18.307+0000] {processor.py:161} INFO - Started process (PID=11431) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:08:18.308+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:08:18.308+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:08:18.308+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:08:18.364+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:08:18.386+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:08:18.386+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:08:18.404+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:08:18.403+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:08:18.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.113 seconds
+[2025-07-23T11:08:48.786+0000] {processor.py:161} INFO - Started process (PID=11495) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:08:48.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:08:48.788+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:08:48.787+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:08:48.840+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:08:48.860+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:08:48.859+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:08:48.874+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:08:48.874+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:08:48.885+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.102 seconds
+[2025-07-23T11:09:19.188+0000] {processor.py:161} INFO - Started process (PID=11533) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:09:19.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:09:19.189+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:09:19.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:09:19.246+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:09:19.267+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:09:19.266+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:09:19.283+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:09:19.283+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:09:19.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.110 seconds
+[2025-07-23T11:09:49.600+0000] {processor.py:161} INFO - Started process (PID=11571) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:09:49.601+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:09:49.601+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:09:49.601+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:09:49.657+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:09:49.680+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:09:49.679+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:09:49.696+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:09:49.696+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:09:49.710+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.113 seconds
+[2025-07-23T11:10:20.004+0000] {processor.py:161} INFO - Started process (PID=11609) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:10:20.005+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:10:20.006+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:10:20.006+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:10:20.065+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:10:20.088+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:10:20.088+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:10:20.105+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:10:20.105+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:10:20.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.116 seconds
+[2025-07-23T11:10:50.409+0000] {processor.py:161} INFO - Started process (PID=11647) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:10:50.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:10:50.410+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:10:50.410+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:10:50.463+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:10:50.485+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:10:50.485+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:10:50.502+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:10:50.502+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:10:50.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.108 seconds
+[2025-07-23T11:11:20.813+0000] {processor.py:161} INFO - Started process (PID=11685) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:11:20.813+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:11:20.814+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:11:20.814+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:11:20.873+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:11:20.897+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:11:20.896+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:11:20.913+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:11:20.913+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:11:20.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.117 seconds
+[2025-07-23T11:11:51.272+0000] {processor.py:161} INFO - Started process (PID=11723) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:11:51.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:11:51.273+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:11:51.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:11:51.328+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:11:51.349+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:11:51.349+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:11:51.365+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:11:51.365+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:11:51.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.108 seconds
+[2025-07-23T11:12:21.682+0000] {processor.py:161} INFO - Started process (PID=11761) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:12:21.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:12:21.684+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:12:21.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:12:21.745+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:12:21.766+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:12:21.766+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:12:21.784+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:12:21.784+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:12:21.799+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.120 seconds
+[2025-07-23T11:12:52.104+0000] {processor.py:161} INFO - Started process (PID=11799) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:12:52.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:12:52.105+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:12:52.105+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:12:52.159+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:12:52.180+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:12:52.180+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:12:52.198+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:12:52.198+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:12:52.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.110 seconds
+[2025-07-23T11:13:22.498+0000] {processor.py:161} INFO - Started process (PID=11837) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:13:22.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:13:22.500+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:13:22.499+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:13:22.553+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:13:22.573+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:13:22.573+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:13:22.589+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:13:22.589+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:13:22.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.106 seconds
+[2025-07-23T11:13:52.954+0000] {processor.py:161} INFO - Started process (PID=11875) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:13:52.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:13:52.956+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:13:52.956+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:13:53.008+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:13:53.029+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:13:53.029+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:13:53.046+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:13:53.046+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:13:53.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.107 seconds
+[2025-07-23T11:14:23.365+0000] {processor.py:161} INFO - Started process (PID=11913) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:14:23.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:14:23.366+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:14:23.366+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:14:23.422+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:14:23.444+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:14:23.444+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:14:23.460+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:14:23.460+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:14:23.472+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.110 seconds
+[2025-07-23T11:14:53.767+0000] {processor.py:161} INFO - Started process (PID=11951) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:14:53.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:14:53.768+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:14:53.768+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:14:53.821+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:14:53.842+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:14:53.842+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:14:53.858+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:14:53.858+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:14:53.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.106 seconds
+[2025-07-23T11:15:24.173+0000] {processor.py:161} INFO - Started process (PID=11989) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:15:24.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:15:24.174+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:15:24.174+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:15:24.228+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:15:24.248+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:15:24.248+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:15:24.264+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:15:24.264+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:15:24.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.107 seconds
+[2025-07-23T11:15:54.574+0000] {processor.py:161} INFO - Started process (PID=12027) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:15:54.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:15:54.576+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:15:54.575+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:15:54.635+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:15:54.656+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:15:54.656+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:15:54.673+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:15:54.673+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:15:54.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.113 seconds
+[2025-07-23T11:16:24.980+0000] {processor.py:161} INFO - Started process (PID=12065) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:16:24.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:16:24.981+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:16:24.981+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:16:25.036+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:16:25.057+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:16:25.057+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:16:25.075+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:16:25.075+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:16:25.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.111 seconds
+[2025-07-23T11:16:55.385+0000] {processor.py:161} INFO - Started process (PID=12103) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:16:55.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:16:55.387+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:16:55.387+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:16:55.440+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:16:55.462+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:16:55.462+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:16:55.478+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:16:55.478+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:16:55.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.108 seconds
+[2025-07-23T11:17:25.791+0000] {processor.py:161} INFO - Started process (PID=12141) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:17:25.792+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:17:25.792+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:17:25.792+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:17:25.852+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:17:25.875+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:17:25.875+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:17:25.892+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:17:25.892+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:17:25.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.116 seconds
+[2025-07-23T11:17:56.220+0000] {processor.py:161} INFO - Started process (PID=12179) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:17:56.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:17:56.221+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:17:56.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:17:56.280+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:17:56.302+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:17:56.302+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:17:56.320+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:17:56.320+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:17:56.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.116 seconds
+[2025-07-23T11:18:26.635+0000] {processor.py:161} INFO - Started process (PID=12217) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:18:26.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:18:26.636+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:18:26.636+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:18:26.690+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:18:26.712+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:18:26.711+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:18:26.729+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:18:26.728+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:18:26.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.109 seconds
+[2025-07-23T11:18:57.116+0000] {processor.py:161} INFO - Started process (PID=12256) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:18:57.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:18:57.117+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:18:57.117+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:18:57.170+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:18:57.191+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:18:57.191+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:18:57.207+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:18:57.207+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:18:57.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.107 seconds
+[2025-07-23T11:19:27.517+0000] {processor.py:161} INFO - Started process (PID=12295) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:19:27.517+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:19:27.518+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:19:27.518+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:19:27.573+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:19:27.596+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:19:27.596+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:19:27.612+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:19:27.612+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:19:27.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.109 seconds
+[2025-07-23T11:19:57.961+0000] {processor.py:161} INFO - Started process (PID=12333) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:19:57.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:19:57.963+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:19:57.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:19:58.020+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:19:58.040+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:19:58.039+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:19:58.065+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:19:58.065+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:19:58.079+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.121 seconds
+[2025-07-23T11:20:28.369+0000] {processor.py:161} INFO - Started process (PID=12372) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:20:28.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:20:28.370+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:20:28.370+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:20:28.427+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:20:28.446+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:20:28.446+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:20:28.461+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:20:28.461+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:20:28.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.108 seconds
+[2025-07-23T11:20:58.774+0000] {processor.py:161} INFO - Started process (PID=12410) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:20:58.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:20:58.776+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:20:58.776+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:20:58.835+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:20:58.859+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:20:58.858+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:20:58.880+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:20:58.880+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:20:58.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.123 seconds
+[2025-07-23T11:21:29.191+0000] {processor.py:161} INFO - Started process (PID=12448) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:21:29.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:21:29.192+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:21:29.192+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:21:29.244+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:21:29.263+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:21:29.263+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:21:29.280+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:21:29.279+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:21:29.291+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.103 seconds
+[2025-07-23T11:21:59.682+0000] {processor.py:161} INFO - Started process (PID=12486) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:21:59.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:21:59.684+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:21:59.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:21:59.736+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:21:59.756+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:21:59.755+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:21:59.771+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:21:59.770+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:21:59.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.104 seconds
+[2025-07-23T11:22:30.089+0000] {processor.py:161} INFO - Started process (PID=12524) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:22:30.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:22:30.090+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:22:30.090+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:22:30.143+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:22:30.162+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:22:30.162+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:22:30.178+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:22:30.178+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:22:30.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.105 seconds
+[2025-07-23T11:23:00.488+0000] {processor.py:161} INFO - Started process (PID=12563) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:23:00.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:23:00.489+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:23:00.489+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:23:00.543+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:23:00.561+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:23:00.561+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:23:00.576+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:23:00.575+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:23:00.587+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.102 seconds
+[2025-07-23T11:23:30.891+0000] {processor.py:161} INFO - Started process (PID=12601) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:23:30.891+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:23:30.892+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:23:30.892+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:23:30.948+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:23:30.966+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:23:30.966+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:23:30.981+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:23:30.981+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:23:30.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.106 seconds
+[2025-07-23T11:24:01.346+0000] {processor.py:161} INFO - Started process (PID=12639) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:24:01.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:24:01.348+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:24:01.347+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:24:01.399+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:24:01.417+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:24:01.417+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:24:01.433+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:24:01.433+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:24:01.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.101 seconds
+[2025-07-23T11:24:31.736+0000] {processor.py:161} INFO - Started process (PID=12677) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:24:31.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:24:31.737+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:24:31.737+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:24:31.790+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:24:31.810+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:24:31.810+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:24:31.825+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:24:31.825+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:24:31.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.104 seconds
+[2025-07-23T11:25:02.136+0000] {processor.py:161} INFO - Started process (PID=12715) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:25:02.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:25:02.137+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:25:02.137+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:25:02.189+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:25:02.208+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:25:02.208+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:25:02.222+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:25:02.222+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:25:02.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.100 seconds
+[2025-07-23T11:25:32.529+0000] {processor.py:161} INFO - Started process (PID=12753) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:25:32.530+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:25:32.531+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:25:32.531+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:25:32.588+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:25:32.608+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:25:32.607+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:25:32.622+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:25:32.622+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:25:32.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.107 seconds
+[2025-07-23T11:26:02.918+0000] {processor.py:161} INFO - Started process (PID=12792) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:26:02.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:26:02.920+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:26:02.920+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:26:02.991+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:26:03.015+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:26:03.014+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:26:03.033+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:26:03.033+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:26:03.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.133 seconds
+[2025-07-23T11:26:33.348+0000] {processor.py:161} INFO - Started process (PID=12830) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:26:33.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:26:33.349+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:26:33.349+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:26:33.402+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:26:33.420+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:26:33.420+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:26:33.435+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:26:33.435+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:26:33.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.102 seconds
+[2025-07-23T11:27:03.746+0000] {processor.py:161} INFO - Started process (PID=12868) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:27:03.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:27:03.748+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:27:03.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:27:03.805+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:27:03.826+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:27:03.825+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:27:03.843+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:27:03.843+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:27:03.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.112 seconds
+[2025-07-23T11:27:34.155+0000] {processor.py:161} INFO - Started process (PID=12906) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:27:34.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:27:34.157+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:27:34.157+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:27:34.211+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:27:34.231+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:27:34.231+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:27:34.246+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:27:34.246+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:27:34.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.106 seconds
+[2025-07-23T11:28:04.548+0000] {processor.py:161} INFO - Started process (PID=12944) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:28:04.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:28:04.549+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:28:04.549+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:28:04.605+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:28:04.625+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:28:04.625+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:28:04.641+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:28:04.641+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:28:04.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.109 seconds
+[2025-07-23T11:28:34.955+0000] {processor.py:161} INFO - Started process (PID=12982) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:28:34.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:28:34.956+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:28:34.956+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:28:35.012+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:28:35.029+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:28:35.029+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:28:35.044+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:28:35.044+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:28:35.056+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.104 seconds
+[2025-07-23T11:29:05.409+0000] {processor.py:161} INFO - Started process (PID=13020) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:29:05.410+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:29:05.411+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:29:05.410+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:29:05.463+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:29:05.482+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:29:05.482+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:29:05.497+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:29:05.497+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:29:05.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.102 seconds
+[2025-07-23T11:29:35.841+0000] {processor.py:161} INFO - Started process (PID=13058) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:29:35.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:29:35.843+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:29:35.843+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:29:35.945+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:29:35.971+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:29:35.970+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:29:35.986+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:29:35.986+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:29:35.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.159 seconds
+[2025-07-23T11:30:06.293+0000] {processor.py:161} INFO - Started process (PID=13097) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:30:06.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:30:06.295+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:30:06.294+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:30:06.348+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:30:06.367+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:30:06.367+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:30:06.382+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:30:06.382+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:30:06.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.103 seconds
+[2025-07-23T11:30:36.687+0000] {processor.py:161} INFO - Started process (PID=13135) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:30:36.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:30:36.689+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:30:36.688+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:30:36.779+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:30:36.803+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:30:36.803+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:30:36.818+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:30:36.818+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:30:36.829+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.145 seconds
+[2025-07-23T11:31:07.124+0000] {processor.py:161} INFO - Started process (PID=13173) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:31:07.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:31:07.125+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:31:07.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:31:07.178+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:31:07.198+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:31:07.198+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:31:07.214+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:31:07.214+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:31:07.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.105 seconds
+[2025-07-23T11:31:37.514+0000] {processor.py:161} INFO - Started process (PID=13211) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:31:37.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:31:37.515+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:31:37.515+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:31:37.607+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:31:37.633+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:31:37.633+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:31:37.649+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:31:37.649+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:31:37.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.150 seconds
+[2025-07-23T11:32:07.961+0000] {processor.py:161} INFO - Started process (PID=13249) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:32:07.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:32:07.962+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:32:07.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:32:08.019+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:32:08.037+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:32:08.037+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:32:08.052+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:32:08.052+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:32:08.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.105 seconds
+[2025-07-23T11:32:38.353+0000] {processor.py:161} INFO - Started process (PID=13287) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:32:38.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:32:38.354+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:32:38.354+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:32:38.408+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:32:38.427+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:32:38.427+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:32:38.442+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:32:38.442+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:32:38.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.103 seconds
+[2025-07-23T11:33:08.747+0000] {processor.py:161} INFO - Started process (PID=13325) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:33:08.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:33:08.748+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:33:08.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:33:08.801+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:33:08.819+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:33:08.819+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:33:08.834+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:33:08.834+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:33:08.846+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.102 seconds
+[2025-07-23T11:33:39.137+0000] {processor.py:161} INFO - Started process (PID=13363) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:33:39.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:33:39.139+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:33:39.139+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:33:39.194+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:33:39.214+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:33:39.213+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:33:39.228+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:33:39.228+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:33:39.240+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.106 seconds
+[2025-07-23T11:34:09.609+0000] {processor.py:161} INFO - Started process (PID=13401) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:34:09.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:34:09.610+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:34:09.610+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:34:09.662+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:34:09.682+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:34:09.681+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:34:09.697+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:34:09.697+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:34:09.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.103 seconds
+[2025-07-23T11:34:40.009+0000] {processor.py:161} INFO - Started process (PID=13439) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:34:40.010+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:34:40.011+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:34:40.011+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:34:40.064+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:34:40.083+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:34:40.083+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:34:40.099+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:34:40.098+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:34:40.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.103 seconds
+[2025-07-23T11:35:10.402+0000] {processor.py:161} INFO - Started process (PID=13477) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:35:10.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:35:10.404+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:35:10.403+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:35:10.456+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:35:10.474+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:35:10.474+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:35:10.489+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:35:10.489+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:35:10.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.101 seconds
+[2025-07-23T11:35:40.802+0000] {processor.py:161} INFO - Started process (PID=13515) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:35:40.802+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:35:40.803+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:35:40.803+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:35:40.857+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:35:40.878+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:35:40.877+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:35:40.893+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:35:40.893+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:35:40.905+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.106 seconds
+[2025-07-23T11:36:11.197+0000] {processor.py:161} INFO - Started process (PID=13554) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:36:11.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:36:11.198+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:36:11.198+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:36:11.250+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:36:11.269+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:36:11.269+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:36:11.284+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:36:11.284+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:36:11.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.101 seconds
+[2025-07-23T11:36:41.634+0000] {processor.py:161} INFO - Started process (PID=13592) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:36:41.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:36:41.636+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:36:41.636+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:36:41.689+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:36:41.709+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:36:41.708+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:36:41.723+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:36:41.723+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:36:41.735+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.104 seconds
+[2025-07-23T11:37:12.022+0000] {processor.py:161} INFO - Started process (PID=13630) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:37:12.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:37:12.024+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:37:12.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:37:12.075+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:37:12.093+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:37:12.093+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:37:12.108+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:37:12.108+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:37:12.119+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.099 seconds
+[2025-07-23T11:37:42.431+0000] {processor.py:161} INFO - Started process (PID=13668) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:37:42.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:37:42.432+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:37:42.432+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:37:42.490+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:37:42.511+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:37:42.511+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:37:42.528+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:37:42.528+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:37:42.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.113 seconds
+[2025-07-23T11:38:12.833+0000] {processor.py:161} INFO - Started process (PID=13707) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:38:12.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:38:12.835+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:38:12.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:38:12.888+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:38:12.906+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:38:12.906+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:38:12.921+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:38:12.921+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:38:12.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.102 seconds
+[2025-07-23T11:38:43.238+0000] {processor.py:161} INFO - Started process (PID=13745) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:38:43.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:38:43.239+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:38:43.239+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:38:43.293+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:38:43.313+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:38:43.312+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:38:43.327+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:38:43.327+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:38:43.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.103 seconds
+[2025-07-23T11:39:13.640+0000] {processor.py:161} INFO - Started process (PID=13783) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:39:13.640+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:39:13.641+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:39:13.641+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:39:13.694+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:39:13.712+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:39:13.712+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:39:13.727+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:39:13.727+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:39:13.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.102 seconds
+[2025-07-23T11:39:44.046+0000] {processor.py:161} INFO - Started process (PID=13821) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:39:44.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:39:44.047+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:39:44.047+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:39:44.100+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:39:44.119+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:39:44.118+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:39:44.135+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:39:44.135+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:39:44.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.104 seconds
+[2025-07-23T11:40:14.458+0000] {processor.py:161} INFO - Started process (PID=13859) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:40:14.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:40:14.459+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:40:14.459+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:40:14.516+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:40:14.537+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:40:14.537+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:40:14.554+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:40:14.554+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:40:14.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.112 seconds
+[2025-07-23T11:40:44.872+0000] {processor.py:161} INFO - Started process (PID=13897) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:40:44.872+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:40:44.873+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:40:44.873+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:40:44.928+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:40:44.949+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:40:44.949+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:40:44.965+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:40:44.965+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:40:44.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.108 seconds
+[2025-07-23T11:41:15.277+0000] {processor.py:161} INFO - Started process (PID=13935) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:41:15.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:41:15.279+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:41:15.278+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:41:15.333+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:41:15.354+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:41:15.354+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:41:15.372+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:41:15.372+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:41:15.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.110 seconds
+[2025-07-23T11:41:45.712+0000] {processor.py:161} INFO - Started process (PID=13979) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:41:45.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:41:45.714+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:41:45.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:41:45.773+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:41:45.790+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:41:45.790+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:41:45.806+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:41:45.806+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:41:45.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.109 seconds
+[2025-07-23T11:42:16.117+0000] {processor.py:161} INFO - Started process (PID=14017) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:42:16.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:42:16.119+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:42:16.119+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:42:16.175+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:42:16.197+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:42:16.197+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:42:16.214+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:42:16.213+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:42:16.227+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.112 seconds
+[2025-07-23T11:42:46.554+0000] {processor.py:161} INFO - Started process (PID=14055) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:42:46.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:42:46.557+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:42:46.556+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:42:46.618+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:42:46.641+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:42:46.641+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:42:46.659+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:42:46.659+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:42:46.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.121 seconds
+[2025-07-23T11:43:16.972+0000] {processor.py:161} INFO - Started process (PID=14093) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:43:16.973+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:43:16.974+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:43:16.974+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:43:17.028+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:43:17.049+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:43:17.049+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:43:17.065+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:43:17.065+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:43:17.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.108 seconds
+[2025-07-23T11:43:47.451+0000] {processor.py:161} INFO - Started process (PID=14131) to work on /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:43:47.451+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/universities_etl_dags.py for tasks to queue
+[2025-07-23T11:43:47.452+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:43:47.452+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:43:47.506+0000] {processor.py:840} INFO - DAG(s) 'universities_dag' retrieved from /opt/airflow/dags/universities_etl_dags.py
+[2025-07-23T11:43:47.528+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:43:47.527+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T11:43:47.543+0000] {logging_mixin.py:188} INFO - [2025-07-23T11:43:47.543+0000] {dag.py:3823} INFO - Setting next_dagrun for universities_dag to 2025-07-23 00:00:00+00:00, run_after=2025-07-24 00:00:00+00:00
+[2025-07-23T11:43:47.555+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/universities_etl_dags.py took 0.107 seconds

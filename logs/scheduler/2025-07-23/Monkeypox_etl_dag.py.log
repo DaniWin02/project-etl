@@ -1,0 +1,151 @@
+[2025-07-23T08:48:24.993+0000] {processor.py:161} INFO - Started process (PID=878) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:48:24.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:48:24.994+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:48:24.994+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:48:25.059+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:48:25.211+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:48:25.210+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:mpox_monkeypox_etl
+[2025-07-23T08:48:25.217+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:48:25.216+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:mpox_monkeypox_etl
+[2025-07-23T08:48:25.222+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:48:25.222+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:mpox_monkeypox_etl
+[2025-07-23T08:48:25.222+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:48:25.222+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:48:25.229+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:48:25.229+0000] {dag.py:3058} INFO - Creating ORM DAG for mpox_monkeypox_etl
+[2025-07-23T08:48:25.237+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:48:25.237+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:48:25.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.261 seconds
+[2025-07-23T08:48:55.360+0000] {processor.py:161} INFO - Started process (PID=916) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:48:55.360+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:48:55.361+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:48:55.361+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:48:55.416+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:48:55.436+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:48:55.435+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:48:55.452+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:48:55.452+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:48:55.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.124 seconds
+[2025-07-23T08:49:25.744+0000] {processor.py:161} INFO - Started process (PID=954) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:49:25.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:49:25.745+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:49:25.745+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:49:25.798+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:49:25.817+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:49:25.816+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:49:25.832+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:49:25.832+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:49:25.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.103 seconds
+[2025-07-23T08:49:56.145+0000] {processor.py:161} INFO - Started process (PID=994) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:49:56.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:49:56.146+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:49:56.146+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:49:56.201+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:49:56.221+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:49:56.221+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:49:56.238+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:49:56.237+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:49:56.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.109 seconds
+[2025-07-23T08:50:26.555+0000] {processor.py:161} INFO - Started process (PID=1033) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:50:26.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:50:26.556+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:50:26.556+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:50:26.615+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:50:26.638+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:50:26.637+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:50:26.654+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:50:26.654+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:50:26.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.116 seconds
+[2025-07-23T08:50:56.973+0000] {processor.py:161} INFO - Started process (PID=1071) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:50:56.974+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:50:56.975+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:50:56.975+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:50:57.030+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:50:57.049+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:50:57.049+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:50:57.064+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:50:57.064+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:50:57.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.108 seconds
+[2025-07-23T08:51:27.387+0000] {processor.py:161} INFO - Started process (PID=1109) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:51:27.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:51:27.388+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:51:27.388+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:51:27.445+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:51:27.467+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:51:27.466+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:51:27.484+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:51:27.484+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:51:27.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.113 seconds
+[2025-07-23T08:51:57.861+0000] {processor.py:161} INFO - Started process (PID=1147) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:51:57.862+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:51:57.862+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:51:57.862+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:51:57.915+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:51:57.935+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:51:57.935+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:51:57.951+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:51:57.951+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:51:57.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.106 seconds
+[2025-07-23T08:52:28.309+0000] {processor.py:161} INFO - Started process (PID=1185) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:52:28.309+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:52:28.310+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:52:28.310+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:52:28.364+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:52:28.385+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:52:28.385+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:52:28.401+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:52:28.401+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:52:28.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.108 seconds
+[2025-07-23T08:52:58.744+0000] {processor.py:161} INFO - Started process (PID=1223) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:52:58.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:52:58.746+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:52:58.745+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:52:58.807+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:52:58.835+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:52:58.835+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:52:58.852+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:52:58.852+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:52:58.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.126 seconds
+[2025-07-23T08:53:29.217+0000] {processor.py:161} INFO - Started process (PID=1264) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:53:29.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:53:29.219+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:53:29.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:53:29.275+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:53:29.296+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:53:29.296+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:53:29.315+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:53:29.315+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:53:29.333+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.119 seconds
+[2025-07-23T08:53:59.571+0000] {processor.py:161} INFO - Started process (PID=1302) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:53:59.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:53:59.572+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:53:59.572+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:53:59.625+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:53:59.644+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:53:59.644+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:53:59.659+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:53:59.659+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:53:59.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.104 seconds
+[2025-07-23T08:54:29.956+0000] {processor.py:161} INFO - Started process (PID=1340) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:54:29.957+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:54:29.958+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:54:29.958+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:54:30.013+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:54:30.032+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:54:30.032+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:54:30.048+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:54:30.048+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:54:30.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.108 seconds
+[2025-07-23T08:55:00.336+0000] {processor.py:161} INFO - Started process (PID=1378) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:55:00.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:55:00.338+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:55:00.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:55:00.392+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:55:00.411+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:55:00.411+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:55:00.426+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:55:00.426+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:55:00.438+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.105 seconds
+[2025-07-23T08:55:30.713+0000] {processor.py:161} INFO - Started process (PID=1416) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:55:30.714+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:55:30.715+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:55:30.715+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:55:30.770+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:55:30.792+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:55:30.791+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:55:30.808+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:55:30.808+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:55:30.820+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.110 seconds
+[2025-07-23T08:56:01.099+0000] {processor.py:161} INFO - Started process (PID=1454) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:56:01.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:56:01.101+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:56:01.100+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:56:01.153+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:56:01.171+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:56:01.171+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:56:01.186+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:56:01.186+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:56:01.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.103 seconds
+[2025-07-23T08:56:31.501+0000] {processor.py:161} INFO - Started process (PID=1492) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:56:31.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:56:31.502+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:56:31.502+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:56:31.558+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:56:31.578+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:56:31.578+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:56:31.594+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:56:31.594+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:56:31.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.110 seconds
+[2025-07-23T08:57:01.915+0000] {processor.py:161} INFO - Started process (PID=1530) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:57:01.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:57:01.916+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:57:01.916+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:57:01.971+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:57:01.991+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:57:01.991+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:57:02.007+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:57:02.007+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:57:02.020+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.109 seconds
+[2025-07-23T08:57:32.280+0000] {processor.py:161} INFO - Started process (PID=1568) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:57:32.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:57:32.282+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:57:32.281+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:57:32.335+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:57:32.357+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:57:32.356+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:57:32.372+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:57:32.372+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:57:32.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.107 seconds
+[2025-07-23T08:58:02.680+0000] {processor.py:161} INFO - Started process (PID=1606) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:58:02.681+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:58:02.681+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:58:02.681+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:58:02.742+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:58:02.764+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:58:02.764+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:58:02.781+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:58:02.780+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:58:02.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.117 seconds
+[2025-07-23T08:58:33.396+0000] {processor.py:161} INFO - Started process (PID=1654) to work on /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:58:33.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/Monkeypox_etl_dag.py for tasks to queue
+[2025-07-23T08:58:33.397+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:58:33.397+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:58:33.450+0000] {processor.py:840} INFO - DAG(s) 'mpox_monkeypox_etl' retrieved from /opt/airflow/dags/Monkeypox_etl_dag.py
+[2025-07-23T08:58:33.470+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:58:33.469+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-23T08:58:33.485+0000] {logging_mixin.py:188} INFO - [2025-07-23T08:58:33.485+0000] {dag.py:3823} INFO - Setting next_dagrun for mpox_monkeypox_etl to 2025-07-22 02:00:00+00:00, run_after=2025-07-23 02:00:00+00:00
+[2025-07-23T08:58:33.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/Monkeypox_etl_dag.py took 0.104 seconds

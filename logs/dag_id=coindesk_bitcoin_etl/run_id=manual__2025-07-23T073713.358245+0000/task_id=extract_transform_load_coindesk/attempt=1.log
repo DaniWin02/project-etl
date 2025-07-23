@@ -1,0 +1,14 @@
+[2025-07-23T07:37:13.930+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: coindesk_bitcoin_etl.extract_transform_load_coindesk manual__2025-07-23T07:37:13.358245+00:00 [queued]>
+[2025-07-23T07:37:13.936+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: coindesk_bitcoin_etl.extract_transform_load_coindesk manual__2025-07-23T07:37:13.358245+00:00 [queued]>
+[2025-07-23T07:37:13.936+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-23T07:37:13.945+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): extract_transform_load_coindesk> on 2025-07-23 07:37:13.358245+00:00
+[2025-07-23T07:37:13.950+0000] {standard_task_runner.py:60} INFO - Started process 637 to run task
+[2025-07-23T07:37:13.954+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'coindesk_bitcoin_etl', 'extract_transform_load_coindesk', 'manual__2025-07-23T07:37:13.358245+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/coindesk_etl_dag.py', '--cfg-path', '/tmp/tmpbzd97ha5']
+[2025-07-23T07:37:13.956+0000] {standard_task_runner.py:88} INFO - Job 6: Subtask extract_transform_load_coindesk
+[2025-07-23T07:37:13.998+0000] {task_command.py:423} INFO - Running <TaskInstance: coindesk_bitcoin_etl.extract_transform_load_coindesk manual__2025-07-23T07:37:13.358245+00:00 [running]> on host e5b764c6e029
+[2025-07-23T07:37:14.073+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='coindesk_bitcoin_etl' AIRFLOW_CTX_TASK_ID='extract_transform_load_coindesk' AIRFLOW_CTX_EXECUTION_DATE='2025-07-23T07:37:13.358245+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-23T07:37:13.358245+00:00'
+[2025-07-23T07:37:14.177+0000] {logging_mixin.py:188} INFO - Error en ETL CoinDesk: HTTPSConnectionPool(host='api.coindesk.com', port=443): Max retries exceeded with url: /v1/bpi/currentprice.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7220426f2770>: Failed to resolve 'api.coindesk.com' ([Errno -2] Name or service not known)"))
+[2025-07-23T07:37:14.178+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-23T07:37:14.189+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=coindesk_bitcoin_etl, task_id=extract_transform_load_coindesk, execution_date=20250723T073713, start_date=20250723T073713, end_date=20250723T073714
+[2025-07-23T07:37:14.246+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-23T07:37:14.263+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

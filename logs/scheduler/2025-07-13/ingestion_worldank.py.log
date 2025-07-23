@@ -1,0 +1,45 @@
+[2025-07-13T16:34:34.829+0000] {processor.py:161} INFO - Started process (PID=217) to work on /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:34:34.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldank.py for tasks to queue
+[2025-07-13T16:34:34.838+0000] {logging_mixin.py:188} INFO - [2025-07-13T16:34:34.837+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:34:35.566+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:34:35.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldank.py took 0.857 seconds
+[2025-07-13T16:35:06.875+0000] {processor.py:161} INFO - Started process (PID=276) to work on /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:35:06.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldank.py for tasks to queue
+[2025-07-13T16:35:06.884+0000] {logging_mixin.py:188} INFO - [2025-07-13T16:35:06.883+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:35:07.348+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:35:07.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldank.py took 0.578 seconds
+[2025-07-13T16:35:38.679+0000] {processor.py:161} INFO - Started process (PID=340) to work on /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:35:38.682+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldank.py for tasks to queue
+[2025-07-13T16:35:38.686+0000] {logging_mixin.py:188} INFO - [2025-07-13T16:35:38.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:35:38.879+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:35:38.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldank.py took 0.250 seconds
+[2025-07-13T16:36:11.277+0000] {processor.py:161} INFO - Started process (PID=403) to work on /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:36:11.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldank.py for tasks to queue
+[2025-07-13T16:36:11.285+0000] {logging_mixin.py:188} INFO - [2025-07-13T16:36:11.284+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:36:11.498+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:36:11.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldank.py took 0.266 seconds
+[2025-07-13T16:36:43.292+0000] {processor.py:161} INFO - Started process (PID=464) to work on /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:36:43.297+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldank.py for tasks to queue
+[2025-07-13T16:36:43.300+0000] {logging_mixin.py:188} INFO - [2025-07-13T16:36:43.300+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:36:43.448+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:36:43.481+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldank.py took 0.198 seconds
+[2025-07-13T16:37:14.711+0000] {processor.py:161} INFO - Started process (PID=525) to work on /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:37:14.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldank.py for tasks to queue
+[2025-07-13T16:37:14.723+0000] {logging_mixin.py:188} INFO - [2025-07-13T16:37:14.722+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:37:14.932+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:37:14.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldank.py took 0.268 seconds
+[2025-07-13T16:37:46.090+0000] {processor.py:161} INFO - Started process (PID=585) to work on /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:37:46.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldank.py for tasks to queue
+[2025-07-13T16:37:46.095+0000] {logging_mixin.py:188} INFO - [2025-07-13T16:37:46.095+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:37:46.292+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:37:46.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldank.py took 0.288 seconds
+[2025-07-13T16:38:16.845+0000] {processor.py:161} INFO - Started process (PID=643) to work on /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:38:16.848+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldank.py for tasks to queue
+[2025-07-13T16:38:16.856+0000] {logging_mixin.py:188} INFO - [2025-07-13T16:38:16.855+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:38:17.185+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:38:17.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldank.py took 0.422 seconds
+[2025-07-13T16:38:47.774+0000] {processor.py:161} INFO - Started process (PID=701) to work on /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:38:47.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_worldank.py for tasks to queue
+[2025-07-13T16:38:47.781+0000] {logging_mixin.py:188} INFO - [2025-07-13T16:38:47.780+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:38:48.140+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_worldank.py
+[2025-07-13T16:38:48.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_worldank.py took 0.440 seconds

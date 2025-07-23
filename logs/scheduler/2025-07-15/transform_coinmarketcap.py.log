@@ -1,0 +1,70 @@
+[2025-07-15T13:34:11.594+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:34:11.598+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_coinmarketcap.py for tasks to queue
+[2025-07-15T13:34:11.603+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:34:11.602+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:34:13.449+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:34:13.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_coinmarketcap.py took 2.002 seconds
+[2025-07-15T13:34:45.042+0000] {processor.py:161} INFO - Started process (PID=288) to work on /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:34:45.047+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_coinmarketcap.py for tasks to queue
+[2025-07-15T13:34:45.053+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:34:45.051+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:34:46.916+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:34:47.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_coinmarketcap.py took 1.982 seconds
+[2025-07-15T13:35:17.430+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:35:17.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_coinmarketcap.py for tasks to queue
+[2025-07-15T13:35:17.439+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:35:17.438+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:35:19.990+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:35:20.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_coinmarketcap.py took 2.646 seconds
+[2025-07-15T13:35:50.377+0000] {processor.py:161} INFO - Started process (PID=408) to work on /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:35:50.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_coinmarketcap.py for tasks to queue
+[2025-07-15T13:35:50.383+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:35:50.382+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:35:51.125+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:35:51.166+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_coinmarketcap.py took 0.797 seconds
+[2025-07-15T13:36:21.562+0000] {processor.py:161} INFO - Started process (PID=473) to work on /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:36:21.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_coinmarketcap.py for tasks to queue
+[2025-07-15T13:36:21.570+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:36:21.568+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:36:23.203+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:36:23.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_coinmarketcap.py took 1.694 seconds
+[2025-07-15T13:36:53.619+0000] {processor.py:161} INFO - Started process (PID=549) to work on /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:36:53.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_coinmarketcap.py for tasks to queue
+[2025-07-15T13:36:53.627+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:36:53.625+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:36:54.286+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:36:54.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_coinmarketcap.py took 0.707 seconds
+[2025-07-15T13:37:29.197+0000] {processor.py:161} INFO - Started process (PID=616) to work on /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:37:29.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_coinmarketcap.py for tasks to queue
+[2025-07-15T13:37:29.275+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:37:29.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:37:33.232+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:37:33.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_coinmarketcap.py took 4.191 seconds
+[2025-07-15T13:38:03.784+0000] {processor.py:161} INFO - Started process (PID=742) to work on /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:38:03.788+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_coinmarketcap.py for tasks to queue
+[2025-07-15T13:38:03.792+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:38:03.791+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:38:04.812+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:38:04.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_coinmarketcap.py took 1.077 seconds
+[2025-07-15T13:38:35.649+0000] {processor.py:161} INFO - Started process (PID=803) to work on /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:38:35.655+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_coinmarketcap.py for tasks to queue
+[2025-07-15T13:38:35.662+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:38:35.660+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:38:37.381+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:38:37.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_coinmarketcap.py took 1.774 seconds
+[2025-07-15T13:39:07.704+0000] {processor.py:161} INFO - Started process (PID=872) to work on /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:39:07.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_coinmarketcap.py for tasks to queue
+[2025-07-15T13:39:07.714+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:39:07.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:39:08.818+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:39:08.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_coinmarketcap.py took 1.163 seconds
+[2025-07-15T13:39:39.046+0000] {processor.py:161} INFO - Started process (PID=937) to work on /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:39:39.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_coinmarketcap.py for tasks to queue
+[2025-07-15T13:39:39.053+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:39:39.052+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:39:41.440+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:39:41.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_coinmarketcap.py took 2.453 seconds
+[2025-07-15T13:40:12.209+0000] {processor.py:161} INFO - Started process (PID=999) to work on /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:40:12.213+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_coinmarketcap.py for tasks to queue
+[2025-07-15T13:40:12.225+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:40:12.224+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:40:13.976+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:40:14.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_coinmarketcap.py took 1.854 seconds
+[2025-07-15T13:40:44.489+0000] {processor.py:161} INFO - Started process (PID=1060) to work on /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:40:44.492+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_coinmarketcap.py for tasks to queue
+[2025-07-15T13:40:44.497+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:40:44.496+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:40:45.284+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:40:45.315+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_coinmarketcap.py took 0.835 seconds
+[2025-07-15T13:41:18.025+0000] {processor.py:161} INFO - Started process (PID=1119) to work on /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:41:18.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/transform_coinmarketcap.py for tasks to queue
+[2025-07-15T13:41:18.065+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:41:18.063+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:41:24.754+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/transform_coinmarketcap.py
+[2025-07-15T13:41:24.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/transform_coinmarketcap.py took 6.875 seconds

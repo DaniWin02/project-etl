@@ -1,0 +1,24 @@
+[2025-07-23T09:28:54.988+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_open_library.extract scheduled__2025-07-22T00:00:00+00:00 [queued]>
+[2025-07-23T09:28:54.993+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_open_library.extract scheduled__2025-07-22T00:00:00+00:00 [queued]>
+[2025-07-23T09:28:54.994+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-23T09:28:55.002+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): extract> on 2025-07-22 00:00:00+00:00
+[2025-07-23T09:28:55.007+0000] {standard_task_runner.py:60} INFO - Started process 3822 to run task
+[2025-07-23T09:28:55.010+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'etl_open_library', 'extract', 'scheduled__2025-07-22T00:00:00+00:00', '--job-id', '59', '--raw', '--subdir', 'DAGS_FOLDER/library_etl_dag.py', '--cfg-path', '/tmp/tmpk07g8snf']
+[2025-07-23T09:28:55.012+0000] {standard_task_runner.py:88} INFO - Job 59: Subtask extract
+[2025-07-23T09:28:55.052+0000] {task_command.py:423} INFO - Running <TaskInstance: etl_open_library.extract scheduled__2025-07-22T00:00:00+00:00 [running]> on host 254e02a0caf4
+[2025-07-23T09:28:55.115+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_open_library' AIRFLOW_CTX_TASK_ID='extract' AIRFLOW_CTX_EXECUTION_DATE='2025-07-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-22T00:00:00+00:00'
+[2025-07-23T09:28:55.708+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/library_etl_dag.py", line 13, in extract_books
+    with open('/tmp/data/books_raw.json', 'w') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/tmp/data/books_raw.json'
+[2025-07-23T09:28:55.719+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=etl_open_library, task_id=extract, execution_date=20250722T000000, start_date=20250723T092854, end_date=20250723T092855
+[2025-07-23T09:28:55.727+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 59 for task extract ([Errno 2] No such file or directory: '/tmp/data/books_raw.json'; 3822)
+[2025-07-23T09:28:55.744+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-23T09:28:55.763+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

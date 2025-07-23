@@ -1,0 +1,14 @@
+[2025-07-23T08:38:51.666+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: nws_weather_etl.extract_transform_load_nws manual__2025-07-23T08:38:50.405218+00:00 [queued]>
+[2025-07-23T08:38:51.672+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: nws_weather_etl.extract_transform_load_nws manual__2025-07-23T08:38:50.405218+00:00 [queued]>
+[2025-07-23T08:38:51.672+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-23T08:38:51.680+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): extract_transform_load_nws> on 2025-07-23 08:38:50.405218+00:00
+[2025-07-23T08:38:51.686+0000] {standard_task_runner.py:60} INFO - Started process 206 to run task
+[2025-07-23T08:38:51.689+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'nws_weather_etl', 'extract_transform_load_nws', 'manual__2025-07-23T08:38:50.405218+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/EE_UUWheater_etl_dag.py', '--cfg-path', '/tmp/tmpv_b6451z']
+[2025-07-23T08:38:51.691+0000] {standard_task_runner.py:88} INFO - Job 25: Subtask extract_transform_load_nws
+[2025-07-23T08:38:51.729+0000] {task_command.py:423} INFO - Running <TaskInstance: nws_weather_etl.extract_transform_load_nws manual__2025-07-23T08:38:50.405218+00:00 [running]> on host 254e02a0caf4
+[2025-07-23T08:38:51.788+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='nws_weather_etl' AIRFLOW_CTX_TASK_ID='extract_transform_load_nws' AIRFLOW_CTX_EXECUTION_DATE='2025-07-23T08:38:50.405218+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-23T08:38:50.405218+00:00'
+[2025-07-23T08:38:52.168+0000] {logging_mixin.py:188} INFO - [2025-07-23 08:38:52.155042] Datos del NWS insertados en MongoDB.
+[2025-07-23T08:38:52.170+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-23T08:38:52.178+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=nws_weather_etl, task_id=extract_transform_load_nws, execution_date=20250723T083850, start_date=20250723T083851, end_date=20250723T083852
+[2025-07-23T08:38:52.222+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-23T08:38:52.236+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

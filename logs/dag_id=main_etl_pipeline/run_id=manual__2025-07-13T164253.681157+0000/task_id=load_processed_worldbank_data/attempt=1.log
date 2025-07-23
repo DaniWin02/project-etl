@@ -1,0 +1,28 @@
+[2025-07-13T16:43:53.325+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: main_etl_pipeline.load_processed_worldbank_data manual__2025-07-13T16:42:53.681157+00:00 [queued]>
+[2025-07-13T16:43:53.577+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: main_etl_pipeline.load_processed_worldbank_data manual__2025-07-13T16:42:53.681157+00:00 [queued]>
+[2025-07-13T16:43:53.581+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-13T16:43:53.831+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load_processed_worldbank_data> on 2025-07-13 16:42:53.681157+00:00
+[2025-07-13T16:43:54.066+0000] {standard_task_runner.py:60} INFO - Started process 631 to run task
+[2025-07-13T16:43:54.100+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'main_etl_pipeline', 'load_processed_worldbank_data', 'manual__2025-07-13T16:42:53.681157+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/main_pipeline.py', '--cfg-path', '/tmp/tmpd6bzad5d']
+[2025-07-13T16:43:54.129+0000] {standard_task_runner.py:88} INFO - Job 94: Subtask load_processed_worldbank_data
+[2025-07-13T16:43:54.651+0000] {task_command.py:423} INFO - Running <TaskInstance: main_etl_pipeline.load_processed_worldbank_data manual__2025-07-13T16:42:53.681157+00:00 [running]> on host b687abb17bb2
+[2025-07-13T16:43:55.624+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='main_etl_pipeline' AIRFLOW_CTX_TASK_ID='load_processed_worldbank_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-13T16:42:53.681157+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-13T16:42:53.681157+00:00'
+[2025-07-13T16:43:55.721+0000] {logging_mixin.py:188} INFO - DEBUG: Contenido de processed_data recibido para carga en 'processed_worldbank_population': {'country_name': 'Mexico', 'country_iso3code': 'MEX', 'indicator_name': 'Population, total', 'indicator_id': 'SP.POP.TOTL', 'year': 2023, 'population_total': 129739759, 'last_updated_api': '', 'population_category': 'Large Population (>100M)', 'transformation_timestamp': '2025-07-13T16:43:39.242275'}
+[2025-07-13T16:43:55.768+0000] {logging_mixin.py:188} INFO - DEBUG: Tipo de processed_data: <class 'dict'>
+[2025-07-13T16:43:55.795+0000] {logging_mixin.py:188} INFO - Iniciando carga de datos procesados en MongoDB en la colección: processed_worldbank_population...
+[2025-07-13T16:43:58.002+0000] {logging_mixin.py:188} INFO - Error inesperado durante la carga en 'processed_worldbank_population': Base de datos no definida para la colección: processed_worldbank_population
+[2025-07-13T16:43:58.047+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/load_mongo.py", line 57, in load_processed_data_to_mongo
+    raise ValueError(f"Base de datos no definida para la colección: {collection_name}")
+ValueError: Base de datos no definida para la colección: processed_worldbank_population
+[2025-07-13T16:43:58.387+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=main_etl_pipeline, task_id=load_processed_worldbank_data, execution_date=20250713T164253, start_date=20250713T164353, end_date=20250713T164358
+[2025-07-13T16:43:58.947+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 94 for task load_processed_worldbank_data (Base de datos no definida para la colección: processed_worldbank_population; 631)
+[2025-07-13T16:43:59.081+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-13T16:43:59.448+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

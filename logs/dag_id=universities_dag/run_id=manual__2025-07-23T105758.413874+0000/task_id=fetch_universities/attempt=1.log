@@ -1,0 +1,14 @@
+[2025-07-23T10:57:59.667+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: universities_dag.fetch_universities manual__2025-07-23T10:57:58.413874+00:00 [queued]>
+[2025-07-23T10:57:59.673+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: universities_dag.fetch_universities manual__2025-07-23T10:57:58.413874+00:00 [queued]>
+[2025-07-23T10:57:59.673+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-23T10:57:59.682+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): fetch_universities> on 2025-07-23 10:57:58.413874+00:00
+[2025-07-23T10:57:59.688+0000] {standard_task_runner.py:60} INFO - Started process 10642 to run task
+[2025-07-23T10:57:59.691+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'universities_dag', 'fetch_universities', 'manual__2025-07-23T10:57:58.413874+00:00', '--job-id', '86', '--raw', '--subdir', 'DAGS_FOLDER/universities_etl_dags.py', '--cfg-path', '/tmp/tmpgrat5h52']
+[2025-07-23T10:57:59.693+0000] {standard_task_runner.py:88} INFO - Job 86: Subtask fetch_universities
+[2025-07-23T10:57:59.731+0000] {task_command.py:423} INFO - Running <TaskInstance: universities_dag.fetch_universities manual__2025-07-23T10:57:58.413874+00:00 [running]> on host 254e02a0caf4
+[2025-07-23T10:57:59.789+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='universities_dag' AIRFLOW_CTX_TASK_ID='fetch_universities' AIRFLOW_CTX_EXECUTION_DATE='2025-07-23T10:57:58.413874+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-23T10:57:58.413874+00:00'
+[2025-07-23T10:57:59.986+0000] {logging_mixin.py:188} INFO - Inserted 157 universities successfully.
+[2025-07-23T10:57:59.987+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-23T10:57:59.995+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=universities_dag, task_id=fetch_universities, execution_date=20250723T105758, start_date=20250723T105759, end_date=20250723T105759
+[2025-07-23T10:58:00.024+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-23T10:58:00.038+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

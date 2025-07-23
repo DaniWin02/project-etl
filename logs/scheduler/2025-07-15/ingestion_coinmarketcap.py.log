@@ -1,0 +1,75 @@
+[2025-07-15T13:34:13.484+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:34:13.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_coinmarketcap.py for tasks to queue
+[2025-07-15T13:34:13.535+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:34:13.524+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:34:15.113+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:34:15.362+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_coinmarketcap.py took 1.921 seconds
+[2025-07-15T13:34:47.262+0000] {processor.py:161} INFO - Started process (PID=295) to work on /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:34:47.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_coinmarketcap.py for tasks to queue
+[2025-07-15T13:34:47.271+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:34:47.269+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:34:47.580+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:34:47.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_coinmarketcap.py took 0.404 seconds
+[2025-07-15T13:35:20.224+0000] {processor.py:161} INFO - Started process (PID=357) to work on /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:35:20.226+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_coinmarketcap.py for tasks to queue
+[2025-07-15T13:35:20.230+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:35:20.229+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:35:20.485+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:35:20.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_coinmarketcap.py took 0.316 seconds
+[2025-07-15T13:35:50.992+0000] {processor.py:161} INFO - Started process (PID=412) to work on /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:35:50.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_coinmarketcap.py for tasks to queue
+[2025-07-15T13:35:50.998+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:35:50.997+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:35:51.191+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:35:51.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_coinmarketcap.py took 0.251 seconds
+[2025-07-15T13:36:21.581+0000] {processor.py:161} INFO - Started process (PID=476) to work on /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:36:21.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_coinmarketcap.py for tasks to queue
+[2025-07-15T13:36:21.588+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:36:21.587+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:36:21.768+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:36:21.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_coinmarketcap.py took 0.229 seconds
+[2025-07-15T13:36:52.585+0000] {processor.py:161} INFO - Started process (PID=533) to work on /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:36:52.589+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_coinmarketcap.py for tasks to queue
+[2025-07-15T13:36:52.594+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:36:52.593+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:36:53.247+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:36:53.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_coinmarketcap.py took 0.798 seconds
+[2025-07-15T13:37:24.460+0000] {processor.py:161} INFO - Started process (PID=605) to work on /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:37:24.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_coinmarketcap.py for tasks to queue
+[2025-07-15T13:37:24.502+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:37:24.501+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:37:25.189+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:37:25.437+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_coinmarketcap.py took 1.016 seconds
+[2025-07-15T13:37:56.500+0000] {processor.py:161} INFO - Started process (PID=705) to work on /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:37:56.504+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_coinmarketcap.py for tasks to queue
+[2025-07-15T13:37:56.511+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:37:56.507+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:37:57.197+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:37:57.649+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_coinmarketcap.py took 1.169 seconds
+[2025-07-15T13:38:28.972+0000] {processor.py:161} INFO - Started process (PID=787) to work on /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:38:28.976+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_coinmarketcap.py for tasks to queue
+[2025-07-15T13:38:28.981+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:38:28.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:38:29.934+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:38:30.161+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_coinmarketcap.py took 1.204 seconds
+[2025-07-15T13:39:00.645+0000] {processor.py:161} INFO - Started process (PID=849) to work on /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:39:00.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_coinmarketcap.py for tasks to queue
+[2025-07-15T13:39:00.651+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:39:00.650+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:39:00.819+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:39:00.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_coinmarketcap.py took 0.216 seconds
+[2025-07-15T13:39:31.064+0000] {processor.py:161} INFO - Started process (PID=914) to work on /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:39:31.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_coinmarketcap.py for tasks to queue
+[2025-07-15T13:39:31.072+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:39:31.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:39:31.277+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:39:31.338+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_coinmarketcap.py took 0.286 seconds
+[2025-07-15T13:40:01.971+0000] {processor.py:161} INFO - Started process (PID=977) to work on /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:40:01.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_coinmarketcap.py for tasks to queue
+[2025-07-15T13:40:01.980+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:40:01.978+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:40:02.165+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:40:02.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_coinmarketcap.py took 0.289 seconds
+[2025-07-15T13:40:33.909+0000] {processor.py:161} INFO - Started process (PID=1038) to work on /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:40:33.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_coinmarketcap.py for tasks to queue
+[2025-07-15T13:40:33.938+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:40:33.937+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:40:34.805+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:40:34.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_coinmarketcap.py took 1.032 seconds
+[2025-07-15T13:41:06.952+0000] {processor.py:161} INFO - Started process (PID=1100) to work on /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:41:06.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_coinmarketcap.py for tasks to queue
+[2025-07-15T13:41:06.982+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:41:06.981+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:41:08.233+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:41:08.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_coinmarketcap.py took 1.477 seconds
+[2025-07-15T13:41:40.659+0000] {processor.py:161} INFO - Started process (PID=1159) to work on /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:41:40.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ingestion_coinmarketcap.py for tasks to queue
+[2025-07-15T13:41:40.698+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:41:40.697+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:41:43.123+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ingestion_coinmarketcap.py
+[2025-07-15T13:41:43.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ingestion_coinmarketcap.py took 2.868 seconds

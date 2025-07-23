@@ -1,0 +1,17 @@
+[2025-07-15T13:37:45.717+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: main_etl_pipeline.transform_worldbank_data manual__2025-07-15T13:37:18.251671+00:00 [queued]>
+[2025-07-15T13:37:45.766+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: main_etl_pipeline.transform_worldbank_data manual__2025-07-15T13:37:18.251671+00:00 [queued]>
+[2025-07-15T13:37:45.775+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-15T13:37:45.880+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): transform_worldbank_data> on 2025-07-15 13:37:18.251671+00:00
+[2025-07-15T13:37:45.915+0000] {standard_task_runner.py:60} INFO - Started process 689 to run task
+[2025-07-15T13:37:45.943+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'main_etl_pipeline', 'transform_worldbank_data', 'manual__2025-07-15T13:37:18.251671+00:00', '--job-id', '113', '--raw', '--subdir', 'DAGS_FOLDER/main_pipeline.py', '--cfg-path', '/tmp/tmppb09ez_y']
+[2025-07-15T13:37:45.954+0000] {standard_task_runner.py:88} INFO - Job 113: Subtask transform_worldbank_data
+[2025-07-15T13:37:46.301+0000] {task_command.py:423} INFO - Running <TaskInstance: main_etl_pipeline.transform_worldbank_data manual__2025-07-15T13:37:18.251671+00:00 [running]> on host 19356e8bdcfc
+[2025-07-15T13:37:46.841+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='main_etl_pipeline' AIRFLOW_CTX_TASK_ID='transform_worldbank_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T13:37:18.251671+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T13:37:18.251671+00:00'
+[2025-07-15T13:37:46.923+0000] {logging_mixin.py:188} INFO - DEBUG: Contenido de raw_population_record recibido en transform_worldbank_data: {'indicator': {'id': 'SP.POP.TOTL', 'value': 'Population, total'}, 'country': {'id': 'MX', 'value': 'Mexico'}, 'countryiso3code': 'MEX', 'date': '2023', 'value': 129739759, 'unit': '', 'obs_status': '', 'decimal': 0}
+[2025-07-15T13:37:46.927+0000] {logging_mixin.py:188} INFO - DEBUG: Tipo de raw_population_record: <class 'dict'>
+[2025-07-15T13:37:46.937+0000] {logging_mixin.py:188} INFO - Iniciando transformación de datos de población del Banco Mundial...
+[2025-07-15T13:37:46.954+0000] {logging_mixin.py:188} INFO - Datos de población transformados exitosamente.
+[2025-07-15T13:37:46.956+0000] {python.py:201} INFO - Done. Returned value was: {'country_name': 'Mexico', 'country_iso3code': 'MEX', 'indicator_name': 'Population, total', 'indicator_id': 'SP.POP.TOTL', 'year': 2023, 'population_total': 129739759, 'last_updated_api': '', 'population_category': 'Large Population (>100M)', 'transformation_timestamp': '2025-07-15T13:37:46.954000'}
+[2025-07-15T13:37:47.123+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=main_etl_pipeline, task_id=transform_worldbank_data, execution_date=20250715T133718, start_date=20250715T133745, end_date=20250715T133747
+[2025-07-15T13:37:47.265+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-15T13:37:47.524+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

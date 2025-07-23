@@ -1,0 +1,16 @@
+[2025-07-13T03:59:09.341+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: main_etl_pipeline.extract_and_load_raw_covid_data manual__2025-07-13T03:59:05.098075+00:00 [queued]>
+[2025-07-13T03:59:09.356+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: main_etl_pipeline.extract_and_load_raw_covid_data manual__2025-07-13T03:59:05.098075+00:00 [queued]>
+[2025-07-13T03:59:09.357+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-13T03:59:09.384+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): extract_and_load_raw_covid_data> on 2025-07-13 03:59:05.098075+00:00
+[2025-07-13T03:59:09.395+0000] {standard_task_runner.py:60} INFO - Started process 292 to run task
+[2025-07-13T03:59:09.405+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'main_etl_pipeline', 'extract_and_load_raw_covid_data', 'manual__2025-07-13T03:59:05.098075+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/main_pipeline.py', '--cfg-path', '/tmp/tmpaqdiwwz7']
+[2025-07-13T03:59:09.412+0000] {standard_task_runner.py:88} INFO - Job 16: Subtask extract_and_load_raw_covid_data
+[2025-07-13T03:59:09.517+0000] {task_command.py:423} INFO - Running <TaskInstance: main_etl_pipeline.extract_and_load_raw_covid_data manual__2025-07-13T03:59:05.098075+00:00 [running]> on host 23913323947a
+[2025-07-13T03:59:09.707+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='main_etl_pipeline' AIRFLOW_CTX_TASK_ID='extract_and_load_raw_covid_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-13T03:59:05.098075+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-13T03:59:05.098075+00:00'
+[2025-07-13T03:59:09.710+0000] {logging_mixin.py:188} INFO - Iniciando extracción de datos de COVID-19 para MEX en la fecha 2023-03-09 desde: https://covid-api.com/api/reports/total?date=2023-03-09&iso=MEX
+[2025-07-13T03:59:12.380+0000] {logging_mixin.py:188} INFO - Datos crudos de COVID-19 para MEX en 2023-03-09 cargados exitosamente en covid_db.raw_covid_data.
+[2025-07-13T03:59:12.453+0000] {logging_mixin.py:188} INFO - Registros extraídos de COVID-19 (crudos): 1
+[2025-07-13T03:59:12.530+0000] {python.py:201} INFO - Done. Returned value was: {'date': '2023-03-09', 'last_update': '2023-03-10 04:21:03', 'confirmed': 7483444, 'confirmed_diff': 8225, 'deaths': 333188, 'deaths_diff': 52, 'recovered': 0, 'recovered_diff': 0, 'active': 7150256, 'active_diff': 8173, 'fatality_rate': 0.0445}
+[2025-07-13T03:59:12.588+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=main_etl_pipeline, task_id=extract_and_load_raw_covid_data, execution_date=20250713T035905, start_date=20250713T035909, end_date=20250713T035912
+[2025-07-13T03:59:12.683+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-13T03:59:12.750+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

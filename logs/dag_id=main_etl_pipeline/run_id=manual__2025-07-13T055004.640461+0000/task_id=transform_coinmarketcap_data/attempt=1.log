@@ -1,0 +1,61 @@
+[2025-07-13T05:50:21.989+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: main_etl_pipeline.transform_coinmarketcap_data manual__2025-07-13T05:50:04.640461+00:00 [queued]>
+[2025-07-13T05:50:22.045+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: main_etl_pipeline.transform_coinmarketcap_data manual__2025-07-13T05:50:04.640461+00:00 [queued]>
+[2025-07-13T05:50:22.048+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-07-13T05:50:22.110+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): transform_coinmarketcap_data> on 2025-07-13 05:50:04.640461+00:00
+[2025-07-13T05:50:22.130+0000] {standard_task_runner.py:60} INFO - Started process 369 to run task
+[2025-07-13T05:50:22.171+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'main_etl_pipeline', 'transform_coinmarketcap_data', 'manual__2025-07-13T05:50:04.640461+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/main_pipeline.py', '--cfg-path', '/tmp/tmpz73pbs4m']
+[2025-07-13T05:50:22.175+0000] {standard_task_runner.py:88} INFO - Job 36: Subtask transform_coinmarketcap_data
+[2025-07-13T05:50:22.543+0000] {task_command.py:423} INFO - Running <TaskInstance: main_etl_pipeline.transform_coinmarketcap_data manual__2025-07-13T05:50:04.640461+00:00 [running]> on host 23913323947a
+[2025-07-13T05:50:22.864+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='main_etl_pipeline' AIRFLOW_CTX_TASK_ID='transform_coinmarketcap_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-13T05:50:04.640461+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-13T05:50:04.640461+00:00'
+[2025-07-13T05:50:22.903+0000] {logging_mixin.py:188} INFO - DEBUG: Contenido de raw_listings recibido en transform_coinmarketcap_data: [{'id': 1, 'name': 'Bitcoin', 'symbol': 'BTC', 'slug': 'bitcoin', 'num_market_pairs': 12253, 'date_added': '2010-07-13T00:00:00.000Z', 'tags': ['mineable', 'pow', 'sha-256', 'store-of-value', 'state-channel', 'coinbase-ventures-portfolio', 'three-arrows-capital-portfolio', 'polychain-capital-portfolio', 'binance-labs-portfolio', 'blockchain-capital-portfolio', 'boostvc-portfolio', 'cms-holdings-portfolio', 'dcg-portfolio', 'dragonfly-capital-portfolio', 'electric-capital-portfolio', 'fabric-ventures-portfolio', 'framework-ventures-portfolio', 'galaxy-digital-portfolio', 'huobi-capital-portfolio', 'alameda-research-portfolio', 'a16z-portfolio', '1confirmation-portfolio', 'winklevoss-capital-portfolio', 'usv-portfolio', 'placeholder-ventures-portfolio', 'pantera-capital-portfolio', 'multicoin-capital-portfolio', 'paradigm-portfolio', 'bitcoin-ecosystem', 'layer-1', 'ftx-bankruptcy-estate', '2017-2018-alt-season', 'us-strategic-crypto-reserve', 'binance-ecosystem', 'binance-listing'], 'max_supply': 21000000, 'circulating_supply': 19891615, 'total_supply': 19891615, 'infinite_supply': False, 'platform': None, 'cmc_rank': 1, 'self_reported_circulating_supply': None, 'self_reported_market_cap': None, 'tvl_ratio': None, 'last_updated': '2025-07-13T05:48:00.000Z', 'quote': {'USD': {'price': 117757.01780220626, 'volume_24h': 45470990305.21862, 'volume_change_24h': -40.642, 'percent_change_1h': -0.09894159, 'percent_change_24h': 0.06140565, 'percent_change_7d': 8.99354699, 'percent_change_30d': 12.82948158, 'percent_change_60d': 13.40434008, 'percent_change_90d': 39.5582617, 'market_cap': 2342377261669.6333, 'market_cap_dominance': 63.6933, 'fully_diluted_market_cap': 2472897373846.33, 'tvl': None, 'last_updated': '2025-07-13T05:48:00.000Z'}}}, {'id': 1027, 'name': 'Ethereum', 'symbol': 'ETH', 'slug': 'ethereum', 'num_market_pairs': 10386, 'date_added': '2015-08-07T00:00:00.000Z', 'tags': ['pos', 'smart-contracts', 'ethereum-ecosystem', 'coinbase-ventures-portfolio', 'three-arrows-capital-portfolio', 'polychain-capital-portfolio', 'binance-labs-portfolio', 'blockchain-capital-portfolio', 'boostvc-portfolio', 'cms-holdings-portfolio', 'dcg-portfolio', 'dragonfly-capital-portfolio', 'electric-capital-portfolio', 'fabric-ventures-portfolio', 'framework-ventures-portfolio', 'hashkey-capital-portfolio', 'kenetic-capital-portfolio', 'huobi-capital-portfolio', 'alameda-research-portfolio', 'a16z-portfolio', '1confirmation-portfolio', 'winklevoss-capital-portfolio', 'usv-portfolio', 'placeholder-ventures-portfolio', 'pantera-capital-portfolio', 'multicoin-capital-portfolio', 'paradigm-portfolio', 'ethereum-pow-ecosystem', 'layer-1', 'ftx-bankruptcy-estate', 'sora-ecosystem', 'rsk-rbtc-ecosystem', 'world-liberty-financial-portfolio', 'us-strategic-crypto-reserve', 'binance-ecosystem', 'binance-listing'], 'max_supply': None, 'circulating_supply': 120715090.58012477, 'total_supply': 120715090.58012477, 'infinite_supply': True, 'platform': None, 'cmc_rank': 2, 'self_reported_circulating_supply': None, 'self_reported_market_cap': None, 'tvl_ratio': None, 'last_updated': '2025-07-13T05:48:00.000Z', 'quote': {'USD': {'price': 2953.6373596567914, 'volume_24h': 16283531430.438072, 'volume_change_24h': -50.0091, 'percent_change_1h': -0.11249805, 'percent_change_24h': -0.04761898, 'percent_change_7d': 17.59015436, 'percent_change_30d': 17.23177792, 'percent_change_60d': 10.39482871, 'percent_change_90d': 82.04402155, 'market_cap': 356548601411.8101, 'market_cap_dominance': 9.6952, 'fully_diluted_market_cap': 356548601411.81, 'tvl': None, 'last_updated': '2025-07-13T05:48:00.000Z'}}}]
+[2025-07-13T05:50:22.904+0000] {logging_mixin.py:188} INFO - DEBUG: Tipo de raw_listings: <class 'list'>
+[2025-07-13T05:50:22.904+0000] {logging_mixin.py:188} INFO - Iniciando transformación de datos de CoinMarketCap...
+[2025-07-13T05:50:24.449+0000] {logging_mixin.py:188} INFO - Datos procesados de CoinMarketCap cargados exitosamente en crypto_data.processed_coinmarketcap_data.
+[2025-07-13T05:50:24.474+0000] {xcom.py:664} ERROR - Object of type ObjectId is not JSON serializable. If you are using pickle instead of JSON for XCom, then you need to enable pickle support for XCom in your *** config or make sure to decorate your object with attr.
+[2025-07-13T05:50:24.483+0000] {logging_mixin.py:188} INFO - Error inesperado en la carga de procesados de CoinMarketCap: Object of type ObjectId is not JSON serializable
+[2025-07-13T05:50:24.557+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/json.py", line 91, in default
+    return serialize(o)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/serialization/serde.py", line 180, in serialize
+    raise TypeError(f"cannot serialize object of type {cls}")
+TypeError: cannot serialize object of type <class 'bson.objectid.ObjectId'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/transform_coinmarketcap.py", line 97, in transform_coinmarketcap_data
+    ti.xcom_push(key="processed_coinmarketcap_data_for_load", value=processed_records)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 2980, in xcom_push
+    XCom.set(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/session.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom.py", line 247, in set
+    value = cls.serialize_value(
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom.py", line 662, in serialize_value
+    return json.dumps(value, cls=XComEncoder).encode("UTF-8")
+  File "/usr/local/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/json.py", line 104, in encode
+    return super().encode(o)
+  File "/usr/local/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/local/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/json.py", line 93, in default
+    return super().default(o)
+  File "/usr/local/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ObjectId is not JSON serializable
+[2025-07-13T05:50:24.593+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=main_etl_pipeline, task_id=transform_coinmarketcap_data, execution_date=20250713T055004, start_date=20250713T055022, end_date=20250713T055024
+[2025-07-13T05:50:24.654+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 36 for task transform_coinmarketcap_data (Object of type ObjectId is not JSON serializable; 369)
+[2025-07-13T05:50:24.727+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-07-13T05:50:24.776+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

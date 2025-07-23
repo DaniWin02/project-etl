@@ -1,0 +1,75 @@
+[2025-07-15T13:34:02.671+0000] {processor.py:161} INFO - Started process (PID=199) to work on /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:34:02.682+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_mongo.py for tasks to queue
+[2025-07-15T13:34:02.687+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:34:02.686+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:34:03.445+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:34:03.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_mongo.py took 0.859 seconds
+[2025-07-15T13:34:34.397+0000] {processor.py:161} INFO - Started process (PID=263) to work on /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:34:34.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_mongo.py for tasks to queue
+[2025-07-15T13:34:34.428+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:34:34.426+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:34:35.177+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:34:35.334+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_mongo.py took 0.972 seconds
+[2025-07-15T13:35:05.990+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:35:05.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_mongo.py for tasks to queue
+[2025-07-15T13:35:05.998+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:35:05.997+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:35:06.528+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:35:06.635+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_mongo.py took 0.658 seconds
+[2025-07-15T13:35:37.522+0000] {processor.py:161} INFO - Started process (PID=386) to work on /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:35:37.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_mongo.py for tasks to queue
+[2025-07-15T13:35:37.642+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:35:37.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:35:38.554+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:35:38.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_mongo.py took 1.181 seconds
+[2025-07-15T13:36:09.557+0000] {processor.py:161} INFO - Started process (PID=450) to work on /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:36:09.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_mongo.py for tasks to queue
+[2025-07-15T13:36:09.589+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:36:09.585+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:36:09.911+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:36:09.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_mongo.py took 0.393 seconds
+[2025-07-15T13:36:40.231+0000] {processor.py:161} INFO - Started process (PID=514) to work on /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:36:40.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_mongo.py for tasks to queue
+[2025-07-15T13:36:40.237+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:36:40.237+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:36:40.405+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:36:40.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_mongo.py took 0.224 seconds
+[2025-07-15T13:37:11.123+0000] {processor.py:161} INFO - Started process (PID=575) to work on /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:37:11.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_mongo.py for tasks to queue
+[2025-07-15T13:37:11.131+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:37:11.130+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:37:11.413+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:37:11.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_mongo.py took 0.345 seconds
+[2025-07-15T13:37:41.705+0000] {processor.py:161} INFO - Started process (PID=672) to work on /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:37:41.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_mongo.py for tasks to queue
+[2025-07-15T13:37:41.732+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:37:41.718+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:37:42.319+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:37:42.484+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_mongo.py took 0.808 seconds
+[2025-07-15T13:38:13.427+0000] {processor.py:161} INFO - Started process (PID=766) to work on /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:38:13.433+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_mongo.py for tasks to queue
+[2025-07-15T13:38:13.442+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:38:13.441+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:38:13.894+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:38:13.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_mongo.py took 0.545 seconds
+[2025-07-15T13:38:44.736+0000] {processor.py:161} INFO - Started process (PID=826) to work on /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:38:44.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_mongo.py for tasks to queue
+[2025-07-15T13:38:44.744+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:38:44.743+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:38:44.908+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:38:44.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_mongo.py took 0.216 seconds
+[2025-07-15T13:39:15.298+0000] {processor.py:161} INFO - Started process (PID=890) to work on /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:39:15.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_mongo.py for tasks to queue
+[2025-07-15T13:39:15.307+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:39:15.306+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:39:15.556+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:39:15.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_mongo.py took 0.325 seconds
+[2025-07-15T13:39:46.099+0000] {processor.py:161} INFO - Started process (PID=955) to work on /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:39:46.102+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_mongo.py for tasks to queue
+[2025-07-15T13:39:46.105+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:39:46.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:39:46.269+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:39:46.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_mongo.py took 0.220 seconds
+[2025-07-15T13:40:20.570+0000] {processor.py:161} INFO - Started process (PID=1021) to work on /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:40:20.579+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_mongo.py for tasks to queue
+[2025-07-15T13:40:20.585+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:40:20.583+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:40:21.252+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:40:21.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_mongo.py took 0.823 seconds
+[2025-07-15T13:40:52.471+0000] {processor.py:161} INFO - Started process (PID=1070) to work on /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:40:52.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_mongo.py for tasks to queue
+[2025-07-15T13:40:52.505+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:40:52.504+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:40:53.359+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:40:53.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_mongo.py took 1.041 seconds
+[2025-07-15T13:41:24.827+0000] {processor.py:161} INFO - Started process (PID=1126) to work on /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:41:24.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/load_mongo.py for tasks to queue
+[2025-07-15T13:41:24.849+0000] {logging_mixin.py:188} INFO - [2025-07-15T13:41:24.848+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:41:26.941+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/load_mongo.py
+[2025-07-15T13:41:27.125+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/load_mongo.py took 2.347 seconds
