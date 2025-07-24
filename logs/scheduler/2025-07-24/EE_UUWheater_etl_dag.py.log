@@ -1,0 +1,658 @@
+[2025-07-24T02:13:28.550+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:13:28.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:13:28.552+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:13:28.552+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:13:28.628+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:13:28.657+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:13:28.657+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:13:28.683+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:13:28.683+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:13:28.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.157 seconds
+[2025-07-24T02:13:59.066+0000] {processor.py:161} INFO - Started process (PID=236) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:13:59.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:13:59.067+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:13:59.067+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:13:59.118+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:13:59.137+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:13:59.136+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:13:59.152+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:13:59.152+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:13:59.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.100 seconds
+[2025-07-24T02:14:29.515+0000] {processor.py:161} INFO - Started process (PID=280) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:14:29.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:14:29.517+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:14:29.516+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:14:29.572+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:14:29.590+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:14:29.590+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:14:29.606+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:14:29.606+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:14:29.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.106 seconds
+[2025-07-24T02:14:59.962+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:14:59.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:14:59.963+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:14:59.963+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:15:00.014+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:15:00.034+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:15:00.034+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:15:00.050+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:15:00.050+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:15:00.062+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.103 seconds
+[2025-07-24T02:15:30.411+0000] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:15:30.411+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:15:30.412+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:15:30.412+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:15:30.463+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:15:30.482+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:15:30.482+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:15:30.497+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:15:30.497+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:15:30.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.101 seconds
+[2025-07-24T02:16:00.866+0000] {processor.py:161} INFO - Started process (PID=394) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:16:00.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:16:00.867+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:16:00.867+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:16:00.916+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:16:00.934+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:16:00.934+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:16:00.950+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:16:00.950+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:16:00.961+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.097 seconds
+[2025-07-24T02:16:31.370+0000] {processor.py:161} INFO - Started process (PID=432) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:16:31.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:16:31.372+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:16:31.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:16:31.426+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:16:31.445+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:16:31.445+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:16:31.462+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:16:31.462+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:16:31.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.108 seconds
+[2025-07-24T02:17:01.837+0000] {processor.py:161} INFO - Started process (PID=470) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:17:01.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:17:01.838+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:17:01.838+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:17:01.888+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:17:01.907+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:17:01.907+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:17:01.923+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:17:01.923+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:17:01.935+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.101 seconds
+[2025-07-24T02:17:32.321+0000] {processor.py:161} INFO - Started process (PID=508) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:17:32.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:17:32.322+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:17:32.322+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:17:32.381+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:17:32.402+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:17:32.402+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:17:32.419+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:17:32.419+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:17:32.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.114 seconds
+[2025-07-24T02:18:02.758+0000] {processor.py:161} INFO - Started process (PID=546) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:18:02.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:18:02.760+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:18:02.759+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:18:02.813+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:18:02.833+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:18:02.833+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:18:02.849+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:18:02.849+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:18:02.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.106 seconds
+[2025-07-24T02:18:33.308+0000] {processor.py:161} INFO - Started process (PID=584) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:18:33.309+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:18:33.310+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:18:33.310+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:18:33.364+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:18:33.385+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:18:33.385+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:18:33.401+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:18:33.401+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:18:33.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.108 seconds
+[2025-07-24T02:19:03.960+0000] {processor.py:161} INFO - Started process (PID=622) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:19:03.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:19:03.962+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:19:03.962+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:19:04.040+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:19:04.065+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:19:04.065+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:19:04.087+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:19:04.087+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:19:04.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.149 seconds
+[2025-07-24T02:19:34.483+0000] {processor.py:161} INFO - Started process (PID=660) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:19:34.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:19:34.484+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:19:34.484+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:19:34.534+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:19:34.553+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:19:34.553+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:19:34.568+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:19:34.568+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:19:34.591+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.111 seconds
+[2025-07-24T02:20:04.971+0000] {processor.py:161} INFO - Started process (PID=699) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:20:04.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:20:04.972+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:20:04.972+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:20:05.026+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:20:05.047+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:20:05.047+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:20:05.063+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:20:05.063+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:20:05.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.106 seconds
+[2025-07-24T02:20:35.401+0000] {processor.py:161} INFO - Started process (PID=737) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:20:35.401+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:20:35.402+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:20:35.402+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:20:35.456+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:20:35.476+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:20:35.476+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:20:35.493+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:20:35.493+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:20:35.505+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.107 seconds
+[2025-07-24T02:21:05.870+0000] {processor.py:161} INFO - Started process (PID=775) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:21:05.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:21:05.871+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:21:05.871+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:21:05.926+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:21:05.944+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:21:05.944+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:21:05.960+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:21:05.959+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:21:05.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.104 seconds
+[2025-07-24T02:21:36.325+0000] {processor.py:161} INFO - Started process (PID=813) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:21:36.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:21:36.326+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:21:36.326+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:21:36.383+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:21:36.405+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:21:36.405+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:21:36.421+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:21:36.421+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:21:36.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.114 seconds
+[2025-07-24T02:22:06.806+0000] {processor.py:161} INFO - Started process (PID=851) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:22:06.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:22:06.808+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:22:06.808+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:22:06.858+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:22:06.877+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:22:06.877+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:22:06.892+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:22:06.892+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:22:06.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.100 seconds
+[2025-07-24T02:22:37.267+0000] {processor.py:161} INFO - Started process (PID=889) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:22:37.268+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:22:37.269+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:22:37.268+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:22:37.328+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:22:37.348+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:22:37.348+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:22:37.369+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:22:37.369+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:22:37.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.119 seconds
+[2025-07-24T02:23:07.707+0000] {processor.py:161} INFO - Started process (PID=927) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:23:07.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:23:07.709+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:23:07.709+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:23:07.758+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:23:07.777+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:23:07.777+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:23:07.792+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:23:07.791+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:23:07.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.098 seconds
+[2025-07-24T02:23:38.216+0000] {processor.py:161} INFO - Started process (PID=965) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:23:38.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:23:38.217+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:23:38.217+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:23:38.272+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:23:38.291+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:23:38.290+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:23:38.306+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:23:38.305+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:23:38.317+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.104 seconds
+[2025-07-24T02:24:08.671+0000] {processor.py:161} INFO - Started process (PID=1003) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:24:08.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:24:08.672+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:24:08.672+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:24:08.722+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:24:08.740+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:24:08.740+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:24:08.755+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:24:08.755+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:24:08.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.098 seconds
+[2025-07-24T02:24:39.165+0000] {processor.py:161} INFO - Started process (PID=1042) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:24:39.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:24:39.167+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:24:39.166+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:24:39.217+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:24:39.236+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:24:39.235+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:24:39.252+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:24:39.252+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:24:39.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.101 seconds
+[2025-07-24T02:25:09.577+0000] {processor.py:161} INFO - Started process (PID=1080) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:25:09.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:25:09.579+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:25:09.578+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:25:09.627+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:25:09.646+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:25:09.645+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:25:09.661+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:25:09.661+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:25:09.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.098 seconds
+[2025-07-24T02:25:40.034+0000] {processor.py:161} INFO - Started process (PID=1118) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:25:40.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:25:40.035+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:25:40.035+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:25:40.084+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:25:40.103+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:25:40.102+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:25:40.118+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:25:40.117+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:25:40.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.098 seconds
+[2025-07-24T02:26:10.481+0000] {processor.py:161} INFO - Started process (PID=1156) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:26:10.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:26:10.482+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:26:10.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:26:10.532+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:26:10.554+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:26:10.554+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:26:10.571+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:26:10.571+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:26:10.584+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.106 seconds
+[2025-07-24T02:26:40.939+0000] {processor.py:161} INFO - Started process (PID=1194) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:26:40.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:26:40.940+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:26:40.940+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:26:40.991+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:26:41.009+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:26:41.009+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:26:41.025+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:26:41.024+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:26:41.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.100 seconds
+[2025-07-24T02:27:11.436+0000] {processor.py:161} INFO - Started process (PID=1232) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:27:11.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:27:11.437+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:27:11.437+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:27:11.488+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:27:11.507+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:27:11.507+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:27:11.523+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:27:11.522+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:27:11.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.102 seconds
+[2025-07-24T02:27:41.952+0000] {processor.py:161} INFO - Started process (PID=1270) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:27:41.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:27:41.954+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:27:41.953+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:27:42.011+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:27:42.031+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:27:42.031+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:27:42.049+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:27:42.049+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:27:42.062+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.113 seconds
+[2025-07-24T02:28:12.421+0000] {processor.py:161} INFO - Started process (PID=1308) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:28:12.422+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:28:12.423+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:28:12.422+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:28:12.475+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:28:12.495+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:28:12.495+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:28:12.512+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:28:12.511+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:28:12.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.105 seconds
+[2025-07-24T02:28:42.947+0000] {processor.py:161} INFO - Started process (PID=1346) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:28:42.948+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:28:42.948+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:28:42.948+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:28:42.998+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:28:43.018+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:28:43.017+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:28:43.033+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:28:43.032+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:28:43.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.100 seconds
+[2025-07-24T02:29:13.448+0000] {processor.py:161} INFO - Started process (PID=1384) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:29:13.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:29:13.449+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:29:13.449+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:29:13.501+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:29:13.520+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:29:13.520+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:29:13.536+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:29:13.536+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:29:13.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.103 seconds
+[2025-07-24T02:29:43.865+0000] {processor.py:161} INFO - Started process (PID=1422) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:29:43.866+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:29:43.866+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:29:43.866+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:29:43.918+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:29:43.938+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:29:43.938+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:29:43.955+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:29:43.955+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:29:43.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.104 seconds
+[2025-07-24T02:30:14.381+0000] {processor.py:161} INFO - Started process (PID=1460) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:30:14.382+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:30:14.382+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:30:14.382+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:30:14.437+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:30:14.457+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:30:14.456+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:30:14.475+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:30:14.475+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:30:14.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.111 seconds
+[2025-07-24T02:30:44.847+0000] {processor.py:161} INFO - Started process (PID=1498) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:30:44.847+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:30:44.848+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:30:44.848+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:30:44.898+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:30:44.916+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:30:44.916+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:30:44.932+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:30:44.932+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:30:44.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.100 seconds
+[2025-07-24T02:31:15.336+0000] {processor.py:161} INFO - Started process (PID=1536) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:31:15.336+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:31:15.337+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:31:15.337+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:31:15.388+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:31:15.408+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:31:15.408+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:31:15.425+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:31:15.425+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:31:15.437+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.105 seconds
+[2025-07-24T02:31:45.813+0000] {processor.py:161} INFO - Started process (PID=1574) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:31:45.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:31:45.815+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:31:45.815+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:31:45.866+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:31:45.886+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:31:45.886+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:31:45.904+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:31:45.904+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:31:45.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.105 seconds
+[2025-07-24T02:32:16.333+0000] {processor.py:161} INFO - Started process (PID=1612) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:32:16.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:32:16.335+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:32:16.335+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:32:16.391+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:32:16.413+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:32:16.413+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:32:16.431+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:32:16.431+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:32:16.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.114 seconds
+[2025-07-24T02:32:46.815+0000] {processor.py:161} INFO - Started process (PID=1650) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:32:46.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:32:46.817+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:32:46.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:32:46.872+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:32:46.891+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:32:46.891+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:32:46.906+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:32:46.906+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:32:46.919+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.107 seconds
+[2025-07-24T02:33:17.311+0000] {processor.py:161} INFO - Started process (PID=1688) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:33:17.311+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:33:17.312+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:33:17.312+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:33:17.361+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:33:17.379+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:33:17.379+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:33:17.395+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:33:17.395+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:33:17.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.099 seconds
+[2025-07-24T02:33:47.854+0000] {processor.py:161} INFO - Started process (PID=1726) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:33:47.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:33:47.856+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:33:47.855+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:33:47.908+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:33:47.928+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:33:47.928+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:33:47.944+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:33:47.944+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:33:47.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.105 seconds
+[2025-07-24T02:34:18.366+0000] {processor.py:161} INFO - Started process (PID=1764) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:34:18.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:34:18.367+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:34:18.367+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:34:18.420+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:34:18.440+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:34:18.440+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:34:18.457+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:34:18.457+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:34:18.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.105 seconds
+[2025-07-24T02:34:48.850+0000] {processor.py:161} INFO - Started process (PID=1802) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:34:48.851+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:34:48.852+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:34:48.852+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:34:48.905+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:34:48.927+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:34:48.927+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:34:48.945+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:34:48.945+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:34:48.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.111 seconds
+[2025-07-24T02:35:19.350+0000] {processor.py:161} INFO - Started process (PID=1840) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:35:19.350+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:35:19.351+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:35:19.351+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:35:19.403+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:35:19.422+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:35:19.422+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:35:19.438+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:35:19.437+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:35:19.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.103 seconds
+[2025-07-24T02:35:49.755+0000] {processor.py:161} INFO - Started process (PID=1878) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:35:49.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:35:49.757+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:35:49.756+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:35:49.806+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:35:49.824+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:35:49.824+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:35:49.840+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:35:49.840+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:35:49.851+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.099 seconds
+[2025-07-24T02:36:20.235+0000] {processor.py:161} INFO - Started process (PID=1916) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:36:20.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:36:20.236+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:36:20.236+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:36:20.292+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:36:20.311+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:36:20.311+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:36:20.328+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:36:20.328+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:36:20.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.107 seconds
+[2025-07-24T02:36:50.762+0000] {processor.py:161} INFO - Started process (PID=1961) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:36:50.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:36:50.763+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:36:50.763+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:36:50.817+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:36:50.838+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:36:50.838+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:36:50.856+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:36:50.856+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:36:50.869+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.110 seconds
+[2025-07-24T02:37:21.227+0000] {processor.py:161} INFO - Started process (PID=1999) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:37:21.227+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:37:21.228+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:37:21.228+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:37:21.278+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:37:21.298+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:37:21.298+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:37:21.314+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:37:21.314+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:37:21.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.102 seconds
+[2025-07-24T02:37:51.680+0000] {processor.py:161} INFO - Started process (PID=2037) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:37:51.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:37:51.681+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:37:51.681+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:37:51.737+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:37:51.759+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:37:51.759+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:37:51.776+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:37:51.776+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:37:51.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.111 seconds
+[2025-07-24T02:38:22.139+0000] {processor.py:161} INFO - Started process (PID=2075) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:38:22.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:38:22.141+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:38:22.141+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:38:22.196+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:38:22.220+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:38:22.220+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:38:22.241+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:38:22.241+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:38:22.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.122 seconds
+[2025-07-24T02:38:52.710+0000] {processor.py:161} INFO - Started process (PID=2113) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:38:52.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:38:52.712+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:38:52.711+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:38:52.766+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:38:52.788+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:38:52.787+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:38:52.804+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:38:52.804+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:38:52.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.111 seconds
+[2025-07-24T02:39:23.128+0000] {processor.py:161} INFO - Started process (PID=2156) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:39:23.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:39:23.130+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:39:23.129+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:39:23.179+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:39:23.197+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:39:23.197+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:39:23.213+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:39:23.212+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:39:23.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.098 seconds
+[2025-07-24T02:39:53.570+0000] {processor.py:161} INFO - Started process (PID=2194) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:39:53.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:39:53.572+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:39:53.571+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:39:53.620+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:39:53.639+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:39:53.639+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:39:53.654+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:39:53.654+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:39:53.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.098 seconds
+[2025-07-24T02:40:24.020+0000] {processor.py:161} INFO - Started process (PID=2232) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:40:24.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:40:24.021+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:40:24.021+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:40:24.070+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:40:24.089+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:40:24.088+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:40:24.103+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:40:24.103+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:40:24.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.098 seconds
+[2025-07-24T02:40:54.460+0000] {processor.py:161} INFO - Started process (PID=2270) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:40:54.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:40:54.461+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:40:54.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:40:54.512+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:40:54.531+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:40:54.531+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:40:54.549+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:40:54.548+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:40:54.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.104 seconds
+[2025-07-24T02:41:24.915+0000] {processor.py:161} INFO - Started process (PID=2308) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:41:24.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:41:24.916+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:41:24.916+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:41:24.965+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:41:24.983+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:41:24.983+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:41:24.999+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:41:24.999+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:41:25.010+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.098 seconds
+[2025-07-24T02:41:55.335+0000] {processor.py:161} INFO - Started process (PID=2346) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:41:55.335+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:41:55.336+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:41:55.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:41:55.390+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:41:55.410+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:41:55.410+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:41:55.429+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:41:55.428+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:41:55.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.109 seconds
+[2025-07-24T02:42:25.772+0000] {processor.py:161} INFO - Started process (PID=2384) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:42:25.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:42:25.773+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:42:25.773+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:42:25.826+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:42:25.846+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:42:25.846+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:42:25.863+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:42:25.863+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:42:25.875+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.106 seconds
+[2025-07-24T02:42:56.201+0000] {processor.py:161} INFO - Started process (PID=2437) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:42:56.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:42:56.202+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:42:56.202+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:42:56.252+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:42:56.271+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:42:56.270+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:42:56.286+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:42:56.286+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:42:56.298+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.101 seconds
+[2025-07-24T02:43:26.684+0000] {processor.py:161} INFO - Started process (PID=2475) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:43:26.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:43:26.685+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:43:26.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:43:26.743+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:43:26.763+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:43:26.763+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:43:26.779+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:43:26.779+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:43:26.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.111 seconds
+[2025-07-24T02:43:57.217+0000] {processor.py:161} INFO - Started process (PID=2513) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:43:57.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:43:57.219+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:43:57.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:43:57.269+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:43:57.286+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:43:57.286+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:43:57.302+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:43:57.302+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:43:57.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.099 seconds
+[2025-07-24T02:44:27.698+0000] {processor.py:161} INFO - Started process (PID=2551) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:44:27.699+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:44:27.700+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:44:27.699+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:44:27.757+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:44:27.782+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:44:27.782+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:44:27.803+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:44:27.803+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:44:27.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.124 seconds
+[2025-07-24T02:44:58.184+0000] {processor.py:161} INFO - Started process (PID=2589) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:44:58.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:44:58.186+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:44:58.185+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:44:58.236+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:44:58.256+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:44:58.256+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:44:58.272+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:44:58.272+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:44:58.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.102 seconds
+[2025-07-24T02:45:28.638+0000] {processor.py:161} INFO - Started process (PID=2627) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:45:28.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:45:28.639+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:45:28.639+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:45:28.689+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:45:28.709+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:45:28.708+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:45:28.726+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:45:28.726+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:45:28.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.104 seconds
+[2025-07-24T02:45:59.103+0000] {processor.py:161} INFO - Started process (PID=2665) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:45:59.103+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:45:59.104+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:45:59.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:45:59.154+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:45:59.173+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:45:59.172+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:45:59.188+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:45:59.187+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:45:59.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.099 seconds
+[2025-07-24T02:46:29.563+0000] {processor.py:161} INFO - Started process (PID=2703) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:46:29.563+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:46:29.564+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:46:29.564+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:46:29.615+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:46:29.635+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:46:29.634+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:46:29.650+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:46:29.650+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:46:29.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.103 seconds
+[2025-07-24T02:47:00.035+0000] {processor.py:161} INFO - Started process (PID=2741) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:47:00.036+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:47:00.036+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:47:00.036+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:47:00.089+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:47:00.109+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:47:00.109+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:47:00.126+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:47:00.126+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:47:00.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.107 seconds
+[2025-07-24T02:47:30.496+0000] {processor.py:161} INFO - Started process (PID=2779) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:47:30.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:47:30.498+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:47:30.497+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:47:30.548+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:47:30.566+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:47:30.566+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:47:30.582+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:47:30.582+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:47:30.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.099 seconds
+[2025-07-24T02:48:00.954+0000] {processor.py:161} INFO - Started process (PID=2817) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:48:00.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:48:00.956+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:48:00.955+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:48:01.007+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:48:01.027+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:48:01.026+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:48:01.042+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:48:01.042+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:48:01.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.103 seconds
+[2025-07-24T02:48:31.407+0000] {processor.py:161} INFO - Started process (PID=2855) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:48:31.407+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:48:31.408+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:48:31.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:48:31.461+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:48:31.485+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:48:31.484+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:48:31.501+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:48:31.501+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:48:31.512+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.108 seconds
+[2025-07-24T02:49:01.910+0000] {processor.py:161} INFO - Started process (PID=2893) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:49:01.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:49:01.911+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:49:01.911+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:49:01.962+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:49:01.986+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:49:01.986+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:49:02.002+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:49:02.002+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:49:02.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.109 seconds
+[2025-07-24T02:49:32.391+0000] {processor.py:161} INFO - Started process (PID=2931) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:49:32.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:49:32.392+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:49:32.392+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:49:32.442+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:49:32.466+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:49:32.466+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:49:32.482+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:49:32.482+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:49:32.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.105 seconds
+[2025-07-24T02:50:02.881+0000] {processor.py:161} INFO - Started process (PID=2969) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:50:02.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:50:02.883+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:50:02.882+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:50:02.937+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:50:02.957+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:50:02.957+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:50:02.973+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:50:02.973+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:50:02.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.106 seconds
+[2025-07-24T02:50:33.298+0000] {processor.py:161} INFO - Started process (PID=3007) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:50:33.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:50:33.299+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:50:33.299+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:50:33.356+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:50:33.376+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:50:33.375+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:50:33.391+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:50:33.391+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:50:33.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.108 seconds
+[2025-07-24T02:51:03.782+0000] {processor.py:161} INFO - Started process (PID=3045) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:51:03.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:51:03.783+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:51:03.783+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:51:03.841+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:51:03.861+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:51:03.861+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:51:03.878+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:51:03.877+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:51:03.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.110 seconds
+[2025-07-24T02:51:34.264+0000] {processor.py:161} INFO - Started process (PID=3083) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:51:34.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:51:34.265+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:51:34.265+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:51:34.320+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:51:34.339+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:51:34.339+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:51:34.356+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:51:34.355+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:51:34.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.109 seconds
+[2025-07-24T02:52:04.682+0000] {processor.py:161} INFO - Started process (PID=3121) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:52:04.683+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:52:04.684+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:52:04.683+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:52:04.742+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:52:04.763+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:52:04.763+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:52:04.779+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:52:04.779+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:52:04.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.112 seconds
+[2025-07-24T02:52:35.160+0000] {processor.py:161} INFO - Started process (PID=3159) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:52:35.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:52:35.162+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:52:35.161+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:52:35.217+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:52:35.237+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:52:35.236+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:52:35.253+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:52:35.253+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:52:35.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.108 seconds
+[2025-07-24T02:53:05.635+0000] {processor.py:161} INFO - Started process (PID=3197) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:53:05.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:53:05.636+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:53:05.636+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:53:05.691+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:53:05.709+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:53:05.709+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:53:05.725+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:53:05.725+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:53:05.737+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.105 seconds
+[2025-07-24T02:53:36.172+0000] {processor.py:161} INFO - Started process (PID=3235) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:53:36.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:53:36.174+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:53:36.173+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:53:36.229+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:53:36.248+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:53:36.248+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:53:36.263+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:53:36.263+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:53:36.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.106 seconds
+[2025-07-24T02:54:06.656+0000] {processor.py:161} INFO - Started process (PID=3273) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:54:06.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:54:06.657+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:54:06.657+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:54:06.712+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:54:06.733+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:54:06.732+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:54:06.749+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:54:06.748+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:54:06.762+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.109 seconds
+[2025-07-24T02:54:37.125+0000] {processor.py:161} INFO - Started process (PID=3311) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:54:37.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:54:37.127+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:54:37.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:54:37.181+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:54:37.200+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:54:37.199+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:54:37.214+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:54:37.214+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:54:37.226+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.104 seconds
+[2025-07-24T02:55:07.588+0000] {processor.py:161} INFO - Started process (PID=3349) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:55:07.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:55:07.589+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:55:07.589+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:55:07.646+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:55:07.665+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:55:07.664+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:55:07.680+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:55:07.680+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:55:07.694+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.108 seconds
+[2025-07-24T02:55:38.058+0000] {processor.py:161} INFO - Started process (PID=3387) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:55:38.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:55:38.059+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:55:38.059+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:55:38.115+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:55:38.133+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:55:38.133+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:55:38.149+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:55:38.149+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:55:38.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.106 seconds
+[2025-07-24T02:56:08.484+0000] {processor.py:161} INFO - Started process (PID=3425) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:56:08.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:56:08.485+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:56:08.485+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:56:08.541+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:56:08.562+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:56:08.562+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:56:08.582+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:56:08.581+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:56:08.593+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.113 seconds
+[2025-07-24T02:56:38.915+0000] {processor.py:161} INFO - Started process (PID=3463) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:56:38.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:56:38.917+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:56:38.916+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:56:38.973+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:56:38.993+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:56:38.993+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:56:39.009+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:56:39.009+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:56:39.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.109 seconds
+[2025-07-24T02:57:09.389+0000] {processor.py:161} INFO - Started process (PID=3501) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:57:09.390+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:57:09.391+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:57:09.390+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:57:09.445+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:57:09.463+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:57:09.463+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:57:09.478+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:57:09.478+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:57:09.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.103 seconds
+[2025-07-24T02:57:39.909+0000] {processor.py:161} INFO - Started process (PID=3539) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:57:39.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:57:39.910+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:57:39.910+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:57:39.970+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:57:39.992+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:57:39.991+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:57:40.014+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:57:40.014+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:57:40.030+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.124 seconds
+[2025-07-24T02:58:10.432+0000] {processor.py:161} INFO - Started process (PID=3583) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:58:10.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:58:10.435+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:58:10.434+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:58:10.520+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:58:10.541+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:58:10.541+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:58:10.562+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:58:10.562+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:58:10.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.147 seconds
+[2025-07-24T02:58:41.032+0000] {processor.py:161} INFO - Started process (PID=3621) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:58:41.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:58:41.034+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:58:41.033+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:58:41.087+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:58:41.107+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:58:41.107+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:58:41.124+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:58:41.124+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:58:41.135+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.106 seconds
+[2025-07-24T02:59:11.447+0000] {processor.py:161} INFO - Started process (PID=3659) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:59:11.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:59:11.449+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:59:11.448+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:59:11.503+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:59:11.523+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:59:11.523+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:59:11.538+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:59:11.537+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:59:11.549+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.104 seconds
+[2025-07-24T02:59:41.896+0000] {processor.py:161} INFO - Started process (PID=3698) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:59:41.897+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T02:59:41.897+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:59:41.897+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:59:41.952+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T02:59:41.970+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:59:41.970+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T02:59:41.986+0000] {logging_mixin.py:188} INFO - [2025-07-24T02:59:41.986+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 02:00:00+00:00, run_after=2025-07-24 03:00:00+00:00
+[2025-07-24T02:59:41.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.104 seconds
+[2025-07-24T03:00:12.312+0000] {processor.py:161} INFO - Started process (PID=3741) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T03:00:12.313+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T03:00:12.314+0000] {logging_mixin.py:188} INFO - [2025-07-24T03:00:12.313+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T03:00:12.370+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T03:00:12.389+0000] {logging_mixin.py:188} INFO - [2025-07-24T03:00:12.389+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T03:00:12.404+0000] {logging_mixin.py:188} INFO - [2025-07-24T03:00:12.404+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 03:00:00+00:00, run_after=2025-07-24 04:00:00+00:00
+[2025-07-24T03:00:12.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.107 seconds
+[2025-07-24T03:00:42.769+0000] {processor.py:161} INFO - Started process (PID=3779) to work on /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T03:00:42.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/EE_UUWheater_etl_dag.py for tasks to queue
+[2025-07-24T03:00:42.771+0000] {logging_mixin.py:188} INFO - [2025-07-24T03:00:42.770+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T03:00:42.827+0000] {processor.py:840} INFO - DAG(s) 'weather_forecast_dag' retrieved from /opt/airflow/dags/EE_UUWheater_etl_dag.py
+[2025-07-24T03:00:42.846+0000] {logging_mixin.py:188} INFO - [2025-07-24T03:00:42.846+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-24T03:00:42.862+0000] {logging_mixin.py:188} INFO - [2025-07-24T03:00:42.862+0000] {dag.py:3823} INFO - Setting next_dagrun for weather_forecast_dag to 2025-07-24 03:00:00+00:00, run_after=2025-07-24 04:00:00+00:00
+[2025-07-24T03:00:42.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/EE_UUWheater_etl_dag.py took 0.107 seconds
